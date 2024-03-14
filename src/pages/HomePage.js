@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import background from "../content/images/home-background.png";
 
 const HomePage = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const backgroundPosition = `50% ${scrollPosition / 2}px`;
+      document.querySelector(".home-img").style.backgroundPosition = backgroundPosition;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div>
-      <img className="home-background-img" src={background} alt="Crowd background image" />
-      <div className="page-container">
+    <div className="page-container">
+      <div className="home-img">
         <div className="home-container">
           <div className="home-header">
             <h1 className="home-title">6202</h1>
