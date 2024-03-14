@@ -1,38 +1,474 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: inherit;
+  font-size: inherit;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+:root{
+  --main: #1c1c1c;
+  --secondary: #141414;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.container{
+  width: 100%;
+  max-height: 100%;
+  background: var(--main);
+}
+
+.app {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+@media (max-width: 600px){
+  .app{
+    /* flex-direction: column; */
+    width: 360px;
+    justify-content: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*-----------------------------------------HEADER-------------------------------------------*/
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+ul{
+  list-style: none;
+}
+
+.site-header{
+  z-index: 0;
+}
+
+.header-top{
+  margin: 0 20px;
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-title{
+  display: flex;
+  flex-direction: row;
+}
+
+.header-text{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.header-subtitle{
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.header-logo{
+  margin: 0 10px;
+}
+
+.site-logo{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.header-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.header-navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--secondary);
+}
+
+.navbar-options{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.navbar-options .link{
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 12px;
+  padding-inline: 10px;
+}
+.navbar-options .link:hover{
+  color: rgb(17, 71, 17);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+  transition: color 0.2s ease-in-out, text-shadow 0.1s ease-in-out;
+}
+
+.social-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*-----------------------------------FOOTER--------------------------------------------------*/
+
+.site-footer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px auto;
+  z-index: 0;
+  background-color: var(--main);
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.footer-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer-navigation{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.site-footer .link{
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.site-footer .link:hover{
+  color: rgb(17, 71, 17);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+}
+
+
+
+.site-footer .social-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transform: scale(.75);
+}
+
+.footer-col4 p{
+  font-size: 22px;
+}
+
+.footer-col4 input{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none; /*Remove input focus outline*/
+  margin-top: 4px;
+}
+
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px){
+  .footer-navigation .navbar-options{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+
+/*-----------------------------------GENERAL PAGE SETTING--------------------------------------------------*/
+
+
+.page-title{
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  line-height: 2;
+  margin: 10px auto;
+}
+
+.subtitle{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px auto;
+}
+
+.page-heading{
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+
+/*-----------------------------------HOME PAGE-------------------------------------------------*/
+.page-container{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  z-index: 0;
+}
+
+.home-background-img{
+  position:fixed;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 40px 40px;
+  text-align: center;
+  z-index: 1;
+  background-color: var(--main);
+}
+
+.home-header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.home-title{
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 2;
+  margin: 10px auto;
+}
+
+.home-subtitle{
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px auto;
+}
+
+
+.home-info{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2;
+  margin: 0 auto;
+}
+
+
+/*-----------------------------------UPCOMING PAGE-------------------------------------------------*/
+
+.page{
+  display: flex;
+  flex-direction: column;
+}
+
+.upcoming-heading{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.text-overlay{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  bottom: 50%;
+  padding: 10px;
+  font-size: 60px;
+}
+
+/*-----------------------------------BAND BIOS PAGE-------------------------------------------------*/
+
+.band-bio-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.band-bio{
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.member-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.member-preview{
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.member-preview.mirror{
+  transform: scaleX(-1);
+}
+.mirror .member-bio-container{
+  transform: scaleX(-1);
+}
+
+.member-title{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 40px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.member-img-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.member-img{
+  width: 100%;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 1);
+}
+
+.member-bio-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 2px 2px;
+  padding: 0 0 0 16px;
+}
+
+.member-bio{
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+@media (max-width: 600px){
+  .member-preview{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .member-img{
+    width: 40%;
+  }
+  .member-bio-container{
+    padding: 0 0 0 0;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+}
+
+
+/*-----------------------------------SOCIAL MEDIA--------------------------------------------------*/
+
+/* Style all font awesome icons */
+.social-icons {
+  /* margin-bottom: 20px; */
+  /* padding: 20px; */
+  font-size: 28px;
+  width: 26px;
+  text-align: center;
+  margin: 0 8px;
+}
+
+/* Add a hover effect if you want */
+.social-icons:hover {
+  opacity: .9;
+  color:black;
+}
+
+.twitter {
+  background: #55ACEE;
   color: white;
+} 
+
+.facebook {
+  background: #316FF6;
+  color: white;
+  font-size: 24px;
+} 
+
+.instagram{
+  background: #fb3958;
+  color:white;
 }
 
-.App-link {
-  color: #61dafb;
+.youtube{
+  background: #FF0000;
+  color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* For social icons in social-buttons */
+.social-buttons .social-icons{
+  background: transparent;
+  height: 75%;
+  position: relative;
+} 
+.social-buttons .twitter:hover{
+  color: #657786;
+}
+.social-buttons .facebook:hover{
+  color: #316FF6;
+}
+.social-buttons .instagram:hover{
+  color:#fb3958;
+}
+.social-buttons .youtube:hover{
+  color:#FF0000;
 }
