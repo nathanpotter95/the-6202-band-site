@@ -333,30 +333,68 @@ ul{
 
 
 /*-----------------------------------CONTACT PAGE-------------------------------------------------*/
-.contact-container{
-  display: flex;
-  flex-direction: row;
+
+.contact-img{
+  background-image: url('./content/images/contact-page.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+}
+
+.contact-box{
+  height: 40em;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
 
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  border-style: solid;
+}
+
 .contact-left{
   display: flex;
   flex-direction: column;
+  text-align: center;
+  line-height: 2.5;
 }
+  .contact-left h1{
+    font-size: 40px;
+    font-weight: bold;
+  }
 
 .input-container{
   display: flex;
   flex-direction: column;
 }
 
-.input-container input{
+.input-container input, textarea{
 background: transparent;
 border: none;
 border-bottom: 2px solid white;
 outline: none; /*Remove input focus outline*/
 margin-top: 4px;
+padding: 8px;
+margin-inline: 2px;
+resize: none;
+}
+
+textarea{
+  height: 6em;
+}
+
+.input-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-submit{
+  margin-top: 8px;
 }
 
 /*-----------------------------------BAND BIOS PAGE-------------------------------------------------*/

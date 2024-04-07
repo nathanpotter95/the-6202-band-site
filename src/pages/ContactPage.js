@@ -2,11 +2,13 @@ import React from "react";
 import social from "../data/socialMedia";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
+import background from "../content/images/contact-page.png";
 
 const ContactPage = () => {
   return (
-    <div className="page-container">
-      <div className="contact-img">
+    <div className="contact-img">
+      {/* <img className="contact-background-img" src={background} alt="Contact Us image" /> */}
+      <div className="contact-box">
         <div className="contact-container">
           <div className="contact-left">
             <h1>BOOK US!</h1>
@@ -37,13 +39,19 @@ const ContactPage = () => {
           </div>
 
           <div className="input-container">
-            <input placeholder="Name" />
-            <input placeholder="Email" />
-            <input placeholder="Phone" />
-            <input placeholder="Address" />
+            <div className="input-row">
+              <input placeholder="Name" />
+              <input placeholder="Email" />
+            </div>
+            <div className="input-row">
+              <input placeholder="Phone" />
+              <input placeholder="Address" />
+            </div>
             <input placeholder="Subject" />
-            <input placeholder="Type your message here..." />
-            <button type="submit">Submit</button>
+            <textarea placeholder="Type your message here..." />
+            <button className="contact-submit" type="submit">
+              Submit
+            </button>
           </div>
         </div>
       </div>
