@@ -341,12 +341,12 @@ ul{
   background-attachment: absolute;
 }
 
-.contact-box{
+/* .contact-box{
   height: 40em;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-}
+} */
 
 .contact-container{
   display: flex;
@@ -355,6 +355,7 @@ ul{
   justify-content: space-around;
   margin: 0 auto;
   border-style: solid;
+  padding-block: 200px;
 }
 
 .contact-left{
@@ -376,12 +377,16 @@ ul{
 .input-container input, textarea{
 background: transparent;
 border: none;
-border-bottom: 2px solid white;
+border-bottom: 1px solid white;
 outline: none; /*Remove input focus outline*/
 margin-top: 4px;
 padding: 8px;
 margin-inline: 2px;
 resize: none;
+}
+
+.input-container::placeholder{
+  font-size: 20px;
 }
 
 textarea{

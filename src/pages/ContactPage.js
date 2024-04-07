@@ -13,7 +13,7 @@ const ContactPage = () => {
           <div className="contact-left">
             <h1>BOOK US!</h1>
             <p>6202band@gmail.com</p>
-            <p>214 773-4526</p>
+            <p>(214) 773-4526</p>
             <ul className="social-buttons">
               <li>
                 <a href={social.facebook} target="_blank" rel="noopener noreferrer">
