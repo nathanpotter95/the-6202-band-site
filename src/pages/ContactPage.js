@@ -6,9 +6,10 @@ import background from "../content/images/contact-page.png";
 
 const ContactPage = () => {
   return (
-    <div className="contact-img">
-      {/* <img className="contact-background-img" src={background} alt="Contact Us image" /> */}
-      <div className="contact-box">
+    <div className="">
+      <div className="contact-img">
+        {/* <img className="contact-background-img" src={background} alt="Contact Us image" /> */}
+
         <div className="contact-container">
           <div className="contact-left">
             <h1>BOOK US!</h1>

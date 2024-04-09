@@ -4,8 +4,8 @@ import background from "../content/images/upcoming-page.png";
 const UpcomingPage = () => {
   return (
     <div className="page">
+      <img className="upcoming-background-img" src={background} alt="Upcoming image" />
       <div className="upcoming-heading">
-        <img className="upcoming-background-img" src={background} alt="Upcoming image" />
         <div>
           <p className="text-overlay">Experience The 6202 Band</p>
         </div>
