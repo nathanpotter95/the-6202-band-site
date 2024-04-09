@@ -310,15 +310,22 @@ ul{
 
 /*-----------------------------------UPCOMING PAGE-------------------------------------------------*/
 
-.page{
-  display: flex;
-  flex-direction: column;
+.upcoming-img{
+  background-image: url('./content/images/upcoming-page.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.upcoming-heading{
+.upcoming-header{
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 auto;
+  padding-block: 11em;
 }
 
 .text-overlay{
@@ -326,13 +333,25 @@ ul{
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* top: 50%;
-  bottom: 50%; */
-  padding: 10px;
-  font-size: 60px;
-  z-index: 2;
+  font-size: 70px;
+  width: 40%;
 }
 
+.upcoming-content{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.upcoming-subheader{
+  text-align: center;
+}
+
+.events-gallery{
+  display: flex;
+
+}
 
 /*-----------------------------------CONTACT PAGE-------------------------------------------------*/
 
