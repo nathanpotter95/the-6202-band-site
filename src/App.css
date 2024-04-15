@@ -353,6 +353,19 @@ ul{
 
 }
 
+
+/*-----------------------------------MEDIA PAGE-------------------------------------------------*/
+.media-gallery{
+  width: 90%;
+  margin: 0 auto;
+}
+/* .media-gallery img{
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+} */
+
+
 /*-----------------------------------CONTACT PAGE-------------------------------------------------*/
 
 .contact-img{
@@ -510,6 +523,21 @@ textarea{
     margin: 0 auto;
     padding-top: 40px;
   }
+}
+
+
+/*-----------------------------------SONG LIST PAGE--------------------------------------------------*/
+
+
+.song-list{
+  display:block;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+  font-family: var(--font1);
+  /* max-height: 100px; Adjust this value to determine the height at which the text should be truncated */
+  overflow: hidden;
+  user-select: none;
 }
 
 
