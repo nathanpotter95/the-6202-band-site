@@ -310,6 +310,13 @@ ul{
 
 /*-----------------------------------UPCOMING PAGE-------------------------------------------------*/
 
+.event-card{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
 .upcoming-img{
   background-image: url('./content/images/upcoming-page.png');
   background-size:cover;
@@ -349,8 +356,8 @@ ul{
 }
 
 .events-gallery{
-  display: flex;
-
+  display: grid;
+  
 }
 
 
@@ -528,16 +535,31 @@ textarea{
 
 /*-----------------------------------SONG LIST PAGE--------------------------------------------------*/
 
+.song-list-page{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.song-list-header{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+  .song-list-header h1{
+    font-size: 80px;
+    margin-bottom: 40px;
+  }
+  .song-list-header h2{
+    font-size: 30px;
+  }
 
 .song-list{
-  display:block;
-  justify-content: center;
-  width: 85%;
-  margin: 0 auto;
-  font-family: var(--font1);
-  /* max-height: 100px; Adjust this value to determine the height at which the text should be truncated */
-  overflow: hidden;
-  user-select: none;
+  align-items: start;
+  text-align: start;
+  line-height: 1.75;
+  margin: 20px 0;
 }
 
 

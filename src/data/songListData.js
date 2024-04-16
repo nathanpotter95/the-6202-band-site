@@ -1,10 +1,10 @@
 import * as content from "../content/contentExport.js";
 
-const songs = [
+const lists = [
   {
     id: 1,
     songList: content.SongList,
   },
 ];
 
-export default songs;
+export default lists;

@@ -1,3 +1,21 @@
-// Check out this plugin https://www.npmjs.com/package/react-event-cards
-// Will use 'npm install react-event-cards'
-// Would be collecting data from a google calendar
+import React from "react";
+import { Link } from "react-router-dom";
+
+const EventCard = ({ event }) => {
+  const { title, date, time, location, description } = event;
+
+  return (
+    <div className="event-card">
+      <h2>{title}</h2>
+      <p>Date: {date}</p>
+      <p>Time: {time}</p>
+      <p>Location: {location}</p>
+      <p>Description: {description}</p>
+      <Link to={``}>
+        <label>Details</label>
+      </Link>
+    </div>
+  );
+};
+
+export default EventCard;
