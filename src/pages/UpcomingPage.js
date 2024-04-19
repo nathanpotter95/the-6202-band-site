@@ -1,7 +1,6 @@
 import React from "react";
-import background from "../content/images/upcoming-page.png";
-import EventCard from "../components/EventCard";
 import events from "../data/eventsData";
+import { Link } from "react-router-dom";
 
 const UpcomingPage = () => {
   return (
@@ -15,12 +14,26 @@ const UpcomingPage = () => {
       <div className="upcoming-content">
         <h1 className="upcoming-subheader">Upcoming and Recent Events</h1>
         <div className="events-gallery">
-          <div>
-            <h1>Upcoming Events</h1>
-            {events.map((event) => (
-              <EventCard key={event.id} event={event} />
-            ))}
-          </div>
+          {events.map((event) => (
+            <div className="event-container">
+              <div key={event.id} className="event-card">
+                <img src={event.logo} alt="Event Logo" />
+                <h2>{event.title}</h2>
+                <div className="event-details">
+                  <p>Date: {event.date}</p>
+                  <p>Time: {event.time}</p>
+                  <p>Location: {event.location}</p>
+                  <br />
+                  <p>Description: {event.description}</p>
+                </div>
+              </div>
+              <div className="event-button">
+                <Link to={``}>
+                  <label>Details</label>
+                </Link>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
