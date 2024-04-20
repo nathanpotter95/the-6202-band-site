@@ -372,8 +372,8 @@ ul{
   object-fit: cover;
 }
   .event-card:hover img{
-    display: none;
     transition: ease-in-out 1.5s;
+    display: none;
   }
 
 .event-card h2 {
@@ -439,7 +439,8 @@ ul{
 }
 
 .event-logo{
-  width: 100%;
+  max-width: 50%;
+  width: auto;
 }
 /*-----------------------------------MEDIA PAGE-------------------------------------------------*/
 .media-gallery{
