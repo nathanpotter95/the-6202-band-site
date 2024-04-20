@@ -433,6 +433,14 @@ ul{
 }
 
 
+.event-page{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.event-logo{
+  width: 100%;
+}
 /*-----------------------------------MEDIA PAGE-------------------------------------------------*/
 .media-gallery{
   width: 90%;

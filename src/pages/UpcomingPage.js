@@ -20,15 +20,17 @@ const UpcomingPage = () => {
                 <img src={event.logo} alt="Event Logo" />
                 <h2>{event.title}</h2>
                 <div className="event-details">
-                  <p>Date: {event.date}</p>
-                  <p>Time: {event.time}</p>
-                  <p>Location: {event.location}</p>
+                  <p>{event.date}</p>
+                  <p>{event.time}</p>
                   <br />
-                  <p>Description: {event.description}</p>
+                  <p>{event.location}</p>
+                  <p>{event.address}</p>
+                  <br />
+                  <p>{event.description}</p>
                 </div>
               </div>
               <div className="event-button">
-                <Link to={``}>
+                <Link to={`/event/${event.id}`}>
                   <label>Details</label>
                 </Link>
               </div>

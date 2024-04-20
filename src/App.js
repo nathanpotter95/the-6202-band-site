@@ -6,6 +6,7 @@ import MediaPage from "./pages/MediaPage";
 import ContactPage from "./pages/ContactPage";
 import BioPage from "./pages/BioPage";
 import SongListPage from "./pages/SongListPage";
+import EventPage from "./pages/EventPage";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact/" element={<ContactPage />} />
             <Route path="/band-bios/" element={<BioPage />} />
             <Route path="/song-list/" element={<SongListPage />} />
+            <Route path="/event/:id" element={<EventPage />} />
           </Routes>
           <Footer />
         </div>
