@@ -434,13 +434,17 @@ ul{
 
 
 .event-page{
+  display: flex;
+  flex-direction: column;
   max-width: 80%;
   margin: 0 auto;
+  justify-content: center;
+  text-align: center;
 }
 
 .event-logo{
   max-width: 50%;
-  width: auto;
+  min-width: 25%;
 }
 /*-----------------------------------MEDIA PAGE-------------------------------------------------*/
 .media-gallery{

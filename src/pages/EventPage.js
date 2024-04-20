@@ -8,19 +8,17 @@ const EventPage = () => {
 
   return (
     <div className="event-page">
-      <div className="">
-        <div key={event.id} className="">
-          <img src={event.logo} className="event-logo" alt="Event Logo" />
-          <h2>{event.title}</h2>
-          <div className="">
-            <p>{event.date}</p>
-            <p>{event.time}</p>
-            <br />
-            <p>{event.location}</p>
-            <p>{event.address}</p>
-            <br />
-            <p>{event.description}</p>
-          </div>
+      <div key={event.id} className="">
+        <img src={event.logo} className="event-logo" alt="Event Logo" />
+        <h2>{event.title}</h2>
+        <div className="">
+          <p>{event.date}</p>
+          <p>{event.time}</p>
+          <br />
+          <p>{event.location}</p>
+          <p>{event.address}</p>
+          <br />
+          <p>{event.description}</p>
         </div>
       </div>
     </div>
