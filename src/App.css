@@ -32,8 +32,8 @@ body{
 }
 @media (max-width: 600px){
   .app{
-    /* flex-direction: column; */
-    /* width: 360px; */
+    flex-direction: column;
+    width: 360px;
     width: auto;
     justify-content: center;
   }
