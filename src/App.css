@@ -250,6 +250,17 @@ ul{
   margin: 40px auto;
 }
 
+.title{
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.title span {
+  font-weight: 100;
+}
 
 /*-----------------------------------HOME PAGE-------------------------------------------------*/
 
@@ -447,15 +458,28 @@ ul{
   min-width: 25%;
 }
 /*-----------------------------------MEDIA PAGE-------------------------------------------------*/
-.media-gallery{
-  width: 90%;
+.media-page{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
   margin: 0 auto;
 }
-/* .media-gallery img{
-  height: 100%;
-  max-width: 100%;
-  width: 100%;
-} */
+
+.photo-gallery {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+  .photo-gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  .photo-gallery img:hover {
+    scale: 105%;
+    transition: 0.1s ease-in-out;
+    box-shadow: 0 0 12px 2px rgba(55, 55, 55, .8);
+  }
 
 
 /*-----------------------------------CONTACT PAGE-------------------------------------------------*/
