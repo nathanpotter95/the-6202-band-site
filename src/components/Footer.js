@@ -56,11 +56,6 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href={social.twitter} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-brands fa-x-twitter" className="social-icons twitter" />
-              </a>
-            </li>
-            <li>
               <a href={social.youtube} target="_blank" rel="noopener noreferrer">
                 <Icon icon="fa-brands fa-youtube" className="social-icons youtube" />
               </a>
