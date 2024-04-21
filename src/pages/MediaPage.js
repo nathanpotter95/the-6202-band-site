@@ -30,8 +30,8 @@ const MediaPage = () => {
           <div className="video">
             <iframe
               key={index}
-              // width="560"
-              // height="315"
+              width="560"
+              height="315"
               src={`https://www.youtube.com/embed/${videoId}?rel=0`}
               title={`YouTube Video ${index + 1}`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
