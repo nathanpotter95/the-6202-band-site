@@ -10,6 +10,11 @@ const Footer = () => {
       <h1>The 6202 Band</h1>
       <div className="footer-top">
         <div className="footer-column col1">
+          <p>Castle Rock, CO, USA</p>
+          <p>6202band@gmail.com</p>
+          <p>(214) 773-4526</p>
+        </div>
+        <div className="footer-column col2">
           <ul className="footer-navigation">
             <li>
               <Link to="/" className="link">
@@ -42,11 +47,6 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-        </div>
-        <div className="footer-column col2">
-          <p>Castle Rock, CO, USA</p>
-          <p>6202band@gmail.com</p>
-          <p>(214) 773-4526</p>
         </div>
         <div className="footer-column col3">
           <ul className="social-buttons">

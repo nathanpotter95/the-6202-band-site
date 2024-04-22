@@ -8,39 +8,36 @@ import social from "../data/socialMedia";
 const Header = () => {
   return (
     <div className="site-header">
-      <div className="header-top">
-        <div className="title-container">
-          <div className="title-box">
-            <div className="header-logo">
-              <img className="site-logo" src={logo} alt="The 6202 Band Logo" />
-            </div>
-            <div className="header-text">
-              <h1 className="header-title">The 6202 Band</h1>
-              <h2 className="header-subtitle">Playing songs that take you back...</h2>
-            </div>
-          </div>
+      <div className="header-container">
+        <div className="header-logo">
+          <img className="site-logo" src={logo} alt="The 6202 Band Logo" />
         </div>
 
-        <div className="header-contact">
-          <p>6202band@gmail.com</p>
-          <p>214 773-4526</p>
-          <ul className="social-buttons">
-            <li>
-              <a href={social.facebook} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-brands fa-facebook-f" className="social-icons facebook" />
-              </a>
-            </li>
-            <li>
-              <a href={social.youtube} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-brands fa-youtube" className="social-icons youtube" />
-              </a>
-            </li>
-            <li>
-              <a href={social.instagram} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
-              </a>
-            </li>
-          </ul>
+        <div className="header-text">
+          <h1 className="header-title">The 6202 Band</h1>
+          <h2 className="header-subtitle">Playing songs that take you back...</h2>
+
+          <div className="header-contact">
+            <p>6202band@gmail.com</p>
+            <p>214 773-4526</p>
+            <ul className="social-buttons">
+              <li>
+                <a href={social.facebook} target="_blank" rel="noopener noreferrer">
+                  <Icon icon="fa-brands fa-facebook-f" className="social-icons facebook" />
+                </a>
+              </li>
+              <li>
+                <a href={social.youtube} target="_blank" rel="noopener noreferrer">
+                  <Icon icon="fa-brands fa-youtube" className="social-icons youtube" />
+                </a>
+              </li>
+              <li>
+                <a href={social.instagram} target="_blank" rel="noopener noreferrer">
+                  <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
