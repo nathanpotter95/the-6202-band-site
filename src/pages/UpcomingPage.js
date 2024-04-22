@@ -11,8 +11,8 @@ const UpcomingPage = () => {
           <p className="text-overlay">Experience The 6202 Band</p>
         </div>
       </div>
-      <div className="upcoming-content">
-        <h1 className="upcoming-subheader">Upcoming and Recent Events</h1>
+      <div className="upcoming-container">
+        <h1>Upcoming and Recent Events</h1>
         <div className="events-gallery">
           {events.map((event) => (
             <div className="event-container">

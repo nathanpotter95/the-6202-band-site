@@ -486,18 +486,20 @@ ul{
   width: 40%;
 }
 
-.upcoming-content{
+.upcoming-container{
   width: 80%;
   margin: 0 auto;
 }
-.upcoming-subheader{
-  text-align: center;
-}
+  .upcoming-container h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 200;
+    padding-bottom: 20px;
+  }
 
 .events-gallery{
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .event-container {
@@ -505,6 +507,10 @@ ul{
   flex-direction: column;
   width: 300px;
   margin: 20px;
+  padding: 2px;
+  border: 1px solid #141414;
+  border-radius: 5px;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, .5);
 }
 
 .event-card {
@@ -568,15 +574,53 @@ ul{
   width: 30%;
   padding: 4px;
   text-align: center;
-  margin: 0 auto
+  margin: 2px auto;
+    text-decoration: none;
 }
+  .event-button:hover{
+    color: rgb(0, 69, 133);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+  }
 
-.event-card label{
-  position: absolute;
-  margin-top: 10px;
-  bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+@media (max-width: 600px){
+  .upcoming-img{
+    background-size:contain;
+    background-attachment: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 40px auto;
+  }
+
+  .upcoming-header{
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  
+  .text-overlay{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .upcoming-container h1{
+    text-align: start;
+    font-size: 28px;
+    font-weight: 200;
+    padding-bottom: 20px;
+  }
+
+  .event-container {
+    width: 300px;
+    margin: 10px 0;
+    padding: 2px;
+  }
+
+  .event-card {
+    height: 16em;
+  }
 }
 
 
@@ -666,8 +710,8 @@ ul{
   }
   .photo-gallery img:hover {
     scale: 105%;
-    transition: 0.1s ease-in-out;
     box-shadow: 0 0 12px 2px rgba(55, 55, 55, .8);
+    transition: 0.1s ease-in-out;
   }
   
 
@@ -694,6 +738,10 @@ ul{
   }
 
 @media (max-width: 600px){
+  .media-page h1{
+    margin: 1em;
+    font-size: 40px;
+  }
   .video-gallery{
     flex-direction: column;
     width: 360px;
@@ -768,12 +816,6 @@ ul{
   height: 100%;
 }
 
-/* .contact-box{
-  height: 40em;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-} */
 
 .contact-container{
   display: flex;
@@ -781,7 +823,6 @@ ul{
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
-  /* border-style: solid; */
   padding-block: 11em;
 }
 
@@ -829,12 +870,33 @@ textarea{
   margin-top: 8px;
 }
 
+@media (max-width: 600px){
+  .contact-container{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-block: 2em;
+  }
+
+  .input-row{
+    flex-direction: column;
+  }
+}
+
 /*-----------------------------------BAND BIOS PAGE-------------------------------------------------*/
 
 .band-bio-page{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.bio-heading{
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
 }
 
 .band-bio{
@@ -900,19 +962,60 @@ textarea{
 }
 
 @media (max-width: 600px){
+
+  .bio-heading{
+    width: 100%;
+    text-align: start;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .bio-heading h1{
+    line-height: 1.5;
+    font-size: 48px;
+  }
+
+  .band-bio{
+    line-height: 1.5;
+  }
+
+  .member-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
   .member-preview{
     flex-direction: column;
-    flex-wrap: wrap;
   }
+
+  .member-preview.mirror{
+    transform: scaleX(1);
+  }
+  .mirror .member-bio-container{
+    transform: scaleX(1);
+  }
+
+  .member-img-container{
+    width: 100%;
+  }
+
   .member-img{
-    width: 40%;
+    width: 100%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    margin-top: 20px;
   }
+
   .member-bio-container{
-    padding: 0 0 0 0;
-    flex-wrap: wrap;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .member-bio{
+    width: 100%;
+    text-align: start;
   }
 }
 
@@ -937,6 +1040,7 @@ textarea{
   }
   .song-list-header h2{
     font-size: 30px;
+    font-weight: 100;
   }
 
 .song-list{
@@ -946,6 +1050,22 @@ textarea{
   margin: 20px 0;
 }
 
+
+@media (max-width: 600px){
+  .song-list-page{
+    width: 100%;
+    padding: 10px;
+  }
+  .song-list{
+    line-height: 1.75;
+  }
+  .song-list-header h1{
+    font-size: 58px;
+  }
+  .song-list-header h2{
+    font-size: 22px;
+  }
+}
 
 /*-----------------------------------SOCIAL MEDIA--------------------------------------------------*/
 

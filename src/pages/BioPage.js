@@ -4,7 +4,7 @@ import members from "../data/bandData";
 const BioPage = () => {
   return (
     <div className="band-bio-page">
-      <div className="page-heading">
+      <div className="bio-heading">
         <h1 className="page-title">Who are 6202?</h1>
         <p className="subtitle">The Sum of Very Talented Parts</p>
         <p className="band-bio">
