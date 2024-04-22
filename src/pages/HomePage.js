@@ -30,8 +30,9 @@ const HomePage = () => {
             unique Rock Band. Composed of a group of inspirational musicians and skillful
             performers, the artists behind 6202 have earned their reputation as a talented band to
             look out for. From live gigs to studio sessions and more, they continue to touch fans
-            all over with their distinct musical style, song selection and energy. <br /> Explore
-            the site and enjoy!
+            all over with their distinct musical style, song selection and energy. <br />
+            <br />
+            Explore the site and enjoy!
           </p>
         </div>
       </div>

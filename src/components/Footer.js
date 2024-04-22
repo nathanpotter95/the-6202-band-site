@@ -7,6 +7,7 @@ import social from "../data/socialMedia";
 const Footer = () => {
   return (
     <div className="site-footer">
+      <h1>The 6202 Band</h1>
       <div className="footer-top">
         <div className="footer-col1">
           <ul className="footer-navigation">
@@ -43,7 +44,6 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-col2">
-          <h1>The 6202 Band</h1>
           <p>Castle Rock, CO, USA</p>
           <p>6202band@gmail.com</p>
           <p>(214) 773-4526</p>

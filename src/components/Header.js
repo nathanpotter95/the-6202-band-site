@@ -10,13 +10,13 @@ const Header = () => {
     <div className="site-header">
       <div className="header-top">
         <div className="title-container">
-          <div className="header-title">
+          <div className="title-box">
             <div className="header-logo">
               <img className="site-logo" src={logo} alt="The 6202 Band Logo" />
             </div>
             <div className="header-text">
-              <h1 className="title">The 6202 Band</h1>
-              <h2 className="subtitle">Playing songs that take you back...</h2>
+              <h1 className="header-title">The 6202 Band</h1>
+              <h2 className="header-subtitle">Playing songs that take you back...</h2>
             </div>
           </div>
         </div>
