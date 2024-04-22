@@ -5,7 +5,7 @@ const HomePage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const backgroundPosition = `50% ${scrollPosition / 2}px`;
+      const backgroundPosition = `50% ${-(scrollPosition / 8)}px`;
       document.querySelector(".home-img").style.backgroundPosition = backgroundPosition;
     };
 
