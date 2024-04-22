@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/the-6202-band-site/static/css/main.665b4ad3.css",
+    "main.css": "/the-6202-band-site/static/css/main.9e55f06b.css",
     "main.js": "/the-6202-band-site/static/js/main.2395e0d7.js",
     "static/media/Band-full.png": "/the-6202-band-site/static/media/Band-full.ebde351a1e3481ca93ba.png",
     "static/media/Bob-new.png": "/the-6202-band-site/static/media/Bob-new.7eb45bb57204fec6c064.png",
@@ -31,11 +31,11 @@
     "static/media/contact-page.png": "/the-6202-band-site/static/media/contact-page.e7ed65cb1865984f4179.png",
     "static/media/song-list.txt": "/the-6202-band-site/static/media/song-list.2f9cfc46bcb322f0fa23.txt",
     "index.html": "/the-6202-band-site/index.html",
-    "main.665b4ad3.css.map": "/the-6202-band-site/static/css/main.665b4ad3.css.map",
+    "main.9e55f06b.css.map": "/the-6202-band-site/static/css/main.9e55f06b.css.map",
     "main.2395e0d7.js.map": "/the-6202-band-site/static/js/main.2395e0d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.665b4ad3.css",
+    "static/css/main.9e55f06b.css",
     "static/js/main.2395e0d7.js"
   ]
 }

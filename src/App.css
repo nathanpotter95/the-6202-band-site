@@ -159,10 +159,18 @@ ul{
   .header-navigation{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     max-width: 100%;
     background-color: var(--secondary);
+  }
+  .navbar-options{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navbar-options .link{
+    margin-right: 0;
+    padding-inline: 10px;
   }
 }
 
@@ -606,7 +614,7 @@ ul{
   }
 
   .upcoming-container h1{
-    text-align: start;
+    text-align: center;
     font-size: 28px;
     font-weight: 200;
     padding-bottom: 20px;
@@ -614,7 +622,7 @@ ul{
 
   .event-container {
     width: 300px;
-    margin: 10px 0;
+    margin: 10px auto;
     padding: 2px;
   }
 
@@ -679,7 +687,24 @@ ul{
 }
 
   
-
+@media (max-width: 600px){
+  .event-page{
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+  }
+    .event-page h1{
+      font-size: 56px;
+      font-weight: 300;
+    }
+  .event-logo{
+    max-width: 90%;
+    min-width: 75%;
+    margin: 40px auto;
+  }
+}
 
 /*-----------------------------------MEDIA PAGE-------------------------------------------------*/
 
