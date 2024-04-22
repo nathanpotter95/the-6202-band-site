@@ -1036,6 +1036,7 @@ textarea{
 }
   .song-list-header h1{
     font-size: 80px;
+    font-weight: 400;
     margin-bottom: 40px;
   }
   .song-list-header h2{
