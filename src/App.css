@@ -33,7 +33,7 @@ body{
 @media (max-width: 600px){
   .app{
     flex-direction: column;
-    max-width: 380px;
+    max-width: 100%;
     width: 100%;
     justify-content: center;
   }
@@ -129,7 +129,7 @@ ul{
   padding-inline: 10px;
 }
 .navbar-options .link:hover{
-  color: rgb(17, 71, 17);
+  color: rgb(0, 69, 133);
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
   transition: color 0.2s ease-in-out, text-shadow 0.1s ease-in-out;
 }
@@ -148,6 +148,7 @@ ul{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
   }
   .header-contact{
     text-align: center;
@@ -175,21 +176,27 @@ ul{
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 60%;
   padding: 20px auto;
   z-index: 0;
   background-color: var(--main);
   padding-bottom: 10px;
-  padding-top: 20px;
-  margin: 10px auto;
+  padding-top: 40px;
+  margin: 20px auto;
 }
-
+.site-footer h1{
+  font-size: 28px;
+  font-weight: 100;
+  margin-left: 100px;
+}
 .footer-top{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 75%;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .footer-navigation{
@@ -205,11 +212,13 @@ ul{
   font-size: 16px;
 }
 .site-footer .link:hover{
-  color: rgb(17, 71, 17);
+  color: rgb(0, 69, 133);
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
 }
 
-
+.footer-column{
+  margin-top: 10px;
+}
 
 .site-footer .social-buttons{
   display: flex;
@@ -220,11 +229,11 @@ ul{
   transform: scale(.75);
 }
 
-.footer-col4 p{
+.col4 p{
   font-size: 22px;
 }
 
-.footer-col4 input{
+.col4 input{
   background: transparent;
   border: none;
   border-bottom: 2px solid white;
@@ -246,14 +255,41 @@ ul{
     flex-direction: column;
   }
 
-.footer-top{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 75%;
-  margin: 40px auto;
-}
+  .site-footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    padding: 20px auto;
+    z-index: 0;
+    background-color: var(--main);
+    padding-bottom: 10px;
+    padding-top: 40px;
+    margin: 20px auto;
+  }
+  .site-footer h1{
+    font-size: 22px;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-top{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-column{
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .site-footer .social-buttons{
+    display: flex;
+    flex-direction: row;
+    transform: scale(.75);
+  }
+
 }
 
 

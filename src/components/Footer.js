@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="site-footer">
       <h1>The 6202 Band</h1>
       <div className="footer-top">
-        <div className="footer-col1">
+        <div className="footer-column col1">
           <ul className="footer-navigation">
             <li>
               <Link to="/" className="link">
@@ -43,12 +43,12 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-col2">
+        <div className="footer-column col2">
           <p>Castle Rock, CO, USA</p>
           <p>6202band@gmail.com</p>
           <p>(214) 773-4526</p>
         </div>
-        <div className="footer-col3">
+        <div className="footer-column col3">
           <ul className="social-buttons">
             <li>
               <a href={social.facebook} target="_blank" rel="noopener noreferrer">
@@ -67,7 +67,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-col4">
+        <div className="footer-column col4">
           <p>Subscribe Form</p>
           <div>
             <input placeholder="Email Address" />
