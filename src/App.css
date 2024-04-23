@@ -851,7 +851,6 @@ ul{
   height: 100%;
 }
 
-
 .contact-container{
   display: flex;
   flex-direction: row;
@@ -901,10 +900,6 @@ textarea{
   flex-direction: row;
 }
 
-.contact-submit{
-  margin-top: 8px;
-}
-
 @media (max-width: 600px){
   .contact-container{
     flex-direction: column;
@@ -916,6 +911,27 @@ textarea{
   .input-row{
     flex-direction: column;
   }
+}
+
+
+.contact-submit{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  width: 30%;
+  padding: 4px;
+  text-align: center;
+  margin: 10px auto;
+    text-decoration: none;
+}
+  .contact-submit:hover{
+    color: rgb(0, 69, 133);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+  }
+
+
+.mail-chimp{
+  color: #141414;
 }
 
 /*-----------------------------------BAND BIOS PAGE-------------------------------------------------*/

@@ -1,15 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import social from "../data/socialMedia";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
-import background from "../content/images/contact-page.png";
 
 const ContactPage = () => {
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+      const response = await fetch(
+        "https://github.us18.list-manage.com/subscribe/post?u=748e84cb2434e64172222b3f3&amp;id=df2209b072&amp;f_id=006bc2e1f0",
+        {
+          method: "POST",
+          body: new FormData(event.target),
+        }
+      );
+
+      if (response.ok) {
+        // Set subscribed state to true
+        setSubscribed(true);
+      } else {
+        throw new Error("Error submitting form");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      // Handle error, display error message, or log the error
+    }
+  };
+
   return (
     <div className="">
       <div className="contact-img">
-        {/* <img className="contact-background-img" src={background} alt="Contact Us image" /> */}
-
         <div className="contact-container">
           <div className="contact-left">
             <h1>BOOK US!</h1>
@@ -34,20 +57,27 @@ const ContactPage = () => {
             </ul>
           </div>
 
-          <div className="input-container">
-            <div className="input-row">
-              <input placeholder="Name" />
-              <input placeholder="Email" />
+          <div>
+            <form onSubmit={handleSubmit} className="contact-form">
+              <div className="input-container">
+                <div className="input-row">
+                  <input type="text" name="FNAME" placeholder="First Name" required />
+                  <input type="text" name="LNAME" placeholder="Last Name" />
+                </div>
+                <div className="input-row">
+                  <input type="email" name="EMAIL" placeholder="Email" required />
+                  <input type="tel" name="PHONE" placeholder="Phone" />
+                </div>
+                <input type="text" name="MERGE5" placeholder="Type your message here..." />
+                <button className="contact-submit" type="submit">
+                  Submit
+                </button>
+              </div>
+            </form>
+            <div>
+              {/* Thank you message */}
+              {subscribed && <p>Thank you for subscribing!</p>}
             </div>
-            <div className="input-row">
-              <input placeholder="Phone" />
-              <input placeholder="Address" />
-            </div>
-            <input placeholder="Subject" />
-            <textarea placeholder="Type your message here..." />
-            <button className="contact-submit" type="submit">
-              Submit
-            </button>
           </div>
         </div>
       </div>
