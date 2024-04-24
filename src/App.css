@@ -150,6 +150,9 @@ ul{
     margin-top: 4px
   }
   
+  .mobile-exit{
+    z-index: 10001;
+  }
 
   .mobile-menu-button{
     display: block;
