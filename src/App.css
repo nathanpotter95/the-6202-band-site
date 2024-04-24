@@ -14,7 +14,7 @@ body{
 
 :root{
   --main: #1c1c1c;
-  --secondary: #141414;
+  --secondary: rgb(20, 20, 20, .98);
 
 }
 
@@ -54,7 +54,11 @@ ul{
 
 .site-header{
   z-index: 0;
-  margin-top: 40px
+  margin-top: 20px
+}
+
+.mobile-menu-button{
+  display: none;
 }
 
 .header-container{
@@ -141,6 +145,50 @@ ul{
 
 
 @media (max-width: 600px){
+
+  .site-header{
+    margin-top: 4px
+  }
+  
+
+  .mobile-menu-button{
+    display: block;
+    text-align: end;
+    font-size: 40px;
+    top: 2px;
+  }
+
+  .mobile-menu {
+    display: block;
+    background-color: var(--secondary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    transition: ease-in-out 1.5s;
+  }
+
+  .mobile-menu .navbar-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .mobile-menu .link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    font-size: 24px;
+    margin-inline: 0;
+    padding-inline: 10px;
+  }
+
+
   .header-container{
     display: flex;
     flex-direction: column;
@@ -167,25 +215,12 @@ ul{
   }
   
   .header-navigation{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    background-color: var(--secondary);
+    display: none;
   }
-  .navbar-options{
-    margin: 0 auto;
-    text-align: center;
-  }
-  .navbar-options .link{
-    margin-right: 0;
-    padding-inline: 10px;
-  }
+
 }
 
-@media (max-width: 600px){
-}
+
 
 
 /*-----------------------------------FOOTER--------------------------------------------------*/

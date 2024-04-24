@@ -1,13 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import "../utils/icons/fontawesome";
 import logo from "../content/images/Band-Logo-Header.png";
 import social from "../data/socialMedia";
 
 const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div className="site-header">
+      {/* Mobile Menu Button */}
+      {/* <div className="mobile-menu-button" onClick={toggleMobileMenu}>
+        <Icon icon={faBars} />
+      </div>
+      <div className="mobile-menu-button" onClick={toggleMobileMenu}>
+        <Icon icon={faTimes} />
+      </div> */}
+
+      {/* Mobile Menu Button */}
+      <div className="mobile-menu-button" onClick={toggleMobileMenu}>
+        {isMobileMenuOpen ? (
+          <Icon icon={faTimes} /> // "x" icon when mobile menu is open
+        ) : (
+          <Icon icon={faBars} /> // bars icon when mobile menu is closed
+        )}
+      </div>
+
       <div className="header-container">
         <div className="header-logo">
           <img className="site-logo" src={logo} alt="The 6202 Band Logo" />
@@ -41,6 +65,46 @@ const Header = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <nav className="mobile-menu">
+          <ul className="navbar-options">
+            <li>
+              <Link to="/" className="link" onClick={toggleMobileMenu}>
+                Home
+              </Link>
+            </li>
+            {/* Add other menu items here */}
+            <li>
+              <Link to="/upcoming" className="link" onClick={toggleMobileMenu}>
+                Upcoming Events
+              </Link>
+            </li>
+            <li>
+              <Link to="/media" className="link" onClick={toggleMobileMenu}>
+                Media
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="link" onClick={toggleMobileMenu}>
+                Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/band-bios" className="link" onClick={toggleMobileMenu}>
+                Band Bios
+              </Link>
+            </li>
+            <li>
+              <Link to="/song-list" className="link" onClick={toggleMobileMenu}>
+                Song List
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      )}
+
+      {/* Desktop Navigation */}
       <nav className="header-navigation">
         <ul className="navbar-options">
           <li>
