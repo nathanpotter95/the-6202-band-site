@@ -153,8 +153,8 @@ ul{
   .mobile-menu-button{
     display: block;
     text-align: end;
-    font-size: 40px;
-    top: 2px;
+    font-size: 38px;
+    padding: 2px;
   }
 
   .mobile-menu {
