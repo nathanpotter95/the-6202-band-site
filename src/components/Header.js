@@ -16,14 +16,6 @@ const Header = () => {
   return (
     <div className="site-header">
       {/* Mobile Menu Button */}
-      {/* <div className="mobile-menu-button" onClick={toggleMobileMenu}>
-        <Icon icon={faBars} />
-      </div>
-      <div className="mobile-menu-button" onClick={toggleMobileMenu}>
-        <Icon icon={faTimes} />
-      </div> */}
-
-      {/* Mobile Menu Button */}
       <div className="mobile-menu-button" onClick={toggleMobileMenu}>
         {isMobileMenuOpen ? (
           <Icon icon={faTimes} /> // "x" icon when mobile menu is open
@@ -32,6 +24,7 @@ const Header = () => {
         )}
       </div>
 
+      {/* Site Title */}
       <div className="header-container">
         <div className="header-logo">
           <img className="site-logo" src={logo} alt="The 6202 Band Logo" />
