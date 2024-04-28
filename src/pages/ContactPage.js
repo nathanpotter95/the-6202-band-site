@@ -30,6 +30,12 @@ const ContactPage = () => {
     }
   };
 
+  const [message, setMessage] = useState("");
+
+  const handleClick = () => {
+    setMessage("Thank you for your submission!");
+  };
+
   return (
     <div className="">
       <div className="contact-img">
@@ -58,26 +64,27 @@ const ContactPage = () => {
           </div>
 
           <div>
-            <form onSubmit={handleSubmit} className="contact-form">
-              <div className="input-container">
-                <div className="input-row">
-                  <input type="text" name="FNAME" placeholder="First Name" required />
-                  <input type="text" name="LNAME" placeholder="Last Name" />
+            {!subscribed ? (
+              <form onSubmit={handleSubmit} onClick={handleClick} className="contact-form">
+                {message}
+                <div className="input-container">
+                  <div className="input-row">
+                    <input type="text" name="FNAME" placeholder="First Name" required />
+                    <input type="text" name="LNAME" placeholder="Last Name" />
+                  </div>
+                  <div className="input-row">
+                    <input type="email" name="EMAIL" placeholder="Email" required />
+                    <input type="tel" name="PHONE" placeholder="Phone" />
+                  </div>
+                  <input type="text" name="MERGE5" placeholder="Type your message here..." />
+                  <button className="contact-submit" type="submit">
+                    Submit
+                  </button>
                 </div>
-                <div className="input-row">
-                  <input type="email" name="EMAIL" placeholder="Email" required />
-                  <input type="tel" name="PHONE" placeholder="Phone" />
-                </div>
-                <input type="text" name="MERGE5" placeholder="Type your message here..." />
-                <button className="contact-submit" type="submit">
-                  Submit
-                </button>
-              </div>
-            </form>
-            <div>
-              {/* Thank you message */}
-              {subscribed && <p>Thank you for subscribing!</p>}
-            </div>
+              </form>
+            ) : (
+              <p>Thank you for subscribing!</p>
+            )}
           </div>
         </div>
       </div>
