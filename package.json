@@ -16,7 +16,6 @@
     "react-dom": "^18.2.0",
     "react-grid-gallery": "^1.0.1-alpha.0",
     "react-photo-album": "^2.3.1",
-    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^6.22.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -48,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.0.0"
   }
 }
