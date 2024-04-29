@@ -4,9 +4,10 @@ import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
 
 const ContactPage = () => {
-  const [subscribed, setSubscribed] = useState(false);
+  const [message, setMessage] = useState("");
 
   const handleSubmit = async (event) => {
+    // Prevent page from refreshing on the submission
     event.preventDefault();
 
     try {
@@ -17,22 +18,13 @@ const ContactPage = () => {
           body: new FormData(event.target),
         }
       );
-
-      if (response.ok) {
-        // Set subscribed state to true
-        setSubscribed(true);
-      } else {
-        throw new Error("Error submitting form");
-      }
     } catch (error) {
       console.error("Form submission error:", error);
       // Handle error, display error message, or log the error
     }
   };
 
-  const [message, setMessage] = useState("");
-
-  const handleClick = () => {
+  const thankYou = () => {
     setMessage("Thank you for your submission!");
   };
 
@@ -64,27 +56,23 @@ const ContactPage = () => {
           </div>
 
           <div>
-            {!subscribed ? (
-              <form onSubmit={handleSubmit} onClick={handleClick} className="contact-form">
-                {message}
-                <div className="input-container">
-                  <div className="input-row">
-                    <input type="text" name="FNAME" placeholder="First Name" required />
-                    <input type="text" name="LNAME" placeholder="Last Name" />
-                  </div>
-                  <div className="input-row">
-                    <input type="email" name="EMAIL" placeholder="Email" required />
-                    <input type="tel" name="PHONE" placeholder="Phone" />
-                  </div>
-                  <input type="text" name="MERGE5" placeholder="Type your message here..." />
-                  <button className="contact-submit" type="submit">
-                    Submit
-                  </button>
+            <form onSubmit={handleSubmit} className="contact-form">
+              {message}
+              <div className="input-container">
+                <div className="input-row">
+                  <input type="text" name="FNAME" placeholder="First Name*" required />
+                  <input type="text" name="LNAME" placeholder="Last Name" />
                 </div>
-              </form>
-            ) : (
-              <p>Thank you for subscribing!</p>
-            )}
+                <div className="input-row">
+                  <input type="email" name="EMAIL" placeholder="Email*" required />
+                  <input type="tel" name="PHONE" placeholder="Phone" />
+                </div>
+                <input type="text" name="MMERGE5" placeholder="Type your message here..." />
+                <button onClick={thankYou} className="contact-submit" type="submit">
+                  Submit
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
