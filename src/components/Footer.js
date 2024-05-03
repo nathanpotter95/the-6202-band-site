@@ -67,13 +67,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-column col4">
-          <p>Subscribe Form</p>
-          <div>
-            <input placeholder="Email Address" />
-            <button type="submit">Submit</button>
-          </div>
-        </div>
       </div>
       <label className="copyright">
         Copyright © The 6202 Band. Web design by Nathan Potter. All rights reserved.

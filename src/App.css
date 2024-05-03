@@ -272,6 +272,7 @@ ul{
   margin-top: 10px;
 }
 
+
 .site-footer .social-buttons{
   display: flex;
   flex-direction: column;
@@ -280,19 +281,6 @@ ul{
   padding-bottom: 10px;
   transform: scale(.75);
 }
-
-.col4 p{
-  font-size: 22px;
-}
-
-.col4 input{
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid white;
-  outline: none; /*Remove input focus outline*/
-  margin-top: 4px;
-}
-
 
 .copyright{
   display: flex;
