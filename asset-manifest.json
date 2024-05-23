@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7dcb44e1.css",
-    "main.js": "/static/js/main.b472aae9.js",
+    "main.js": "/static/js/main.c14acd95.js",
     "static/media/Band-full.png": "/static/media/Band-full.ebde351a1e3481ca93ba.png",
     "static/media/Bob-new.png": "/static/media/Bob-new.7eb45bb57204fec6c064.png",
     "static/media/Shane.png": "/static/media/Shane.39fe2015f7f0968ad302.png",
@@ -29,13 +29,14 @@
     "static/media/Johnny.png": "/static/media/Johnny.856dc6179879ea6d0ed9.png",
     "static/media/home-background.png": "/static/media/home-background.17a6ca103467dd9178a2.png",
     "static/media/contact-page.png": "/static/media/contact-page.e7ed65cb1865984f4179.png",
+    "static/media/Frontier-Club-Logo.jpg": "/static/media/Frontier-Club-Logo.a9aa8474fa0338937db5.jpg",
     "static/media/song-list.txt": "/static/media/song-list.b97208d50cd2ed14d2ab.txt",
     "index.html": "/index.html",
     "main.7dcb44e1.css.map": "/static/css/main.7dcb44e1.css.map",
-    "main.b472aae9.js.map": "/static/js/main.b472aae9.js.map"
+    "main.c14acd95.js.map": "/static/js/main.c14acd95.js.map"
   },
   "entrypoints": [
     "static/css/main.7dcb44e1.css",
-    "static/js/main.b472aae9.js"
+    "static/js/main.c14acd95.js"
   ]
 }
