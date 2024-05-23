@@ -2,7 +2,7 @@ import { FrontierClubLogo } from "../content/contentExport";
 
 const events = [
   {
-    id: 4,
+    id: 1,
     title: "6202 Returns to Rock Bottom Brewery",
     date: "Sat, Jun 08, 2024",
     time: "6:00pm - 9:00pm",
@@ -15,7 +15,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.1984968083602!2d-105.01012232345994!3d39.55513160762741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c838fffffffff%3A0xa93df11417552e5e!2sRock%20Bottom%20Restaurant%20%26%20Brewery!5e0!3m2!1sen!2sus!4v1713718275662!5m2!1sen!2sus",
   },
   {
-    id: 5,
+    id: 2,
     title: "Greenfield's Welcome 6202 for a Friday Night Show",
     date: "Fri, Jun 21, 2024",
     time: "8:00pm - 12:00am",
@@ -28,7 +28,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
   },
   {
-    id: 6,
+    id: 3,
     title: "6202 Returns to Wrigley's for a Saturday Night Special",
     date: "Sat, Jun 29, 2024",
     time: "4:00pm - 8:00pm",
@@ -41,7 +41,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6137.870539734098!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1713718330857!5m2!1sen!2sus",
   },
   {
-    id: 7,
+    id: 4,
     title: "6202 Invades the Platte River Grill",
     date: "Fri, Jul 05, 2024",
     time: "6:00pm - 10:00pm",
@@ -55,7 +55,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6147.716785210904!2d-105.02402112345811!3d39.607872304470796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1713718353636!5m2!1sen!2sus",
   },
   {
-    id: 8,
+    id: 5,
     title: "6202 Debuts at Bucket List Tavern",
     date: "Fri, Jul 19, 2024",
     time: "",
@@ -69,7 +69,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.944245545774!2d-104.88333782346527!3d39.40276741672657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c99f4be22f16b%3A0x8477ce7ceae3c068!2sBucket%20List%20Tavern!5e0!3m2!1sen!2sus!4v1713718378563!5m2!1sen!2sus",
   },
   {
-    id: 9,
+    id: 6,
     title: "6202 Hits Rock Bottom Again!",
     date: "Sat, Jul 27, 2024",
     time: "6:00pm - 9:00pm",
@@ -82,7 +82,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.1984968083602!2d-105.01012232345994!3d39.55513160762741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c838fffffffff%3A0xa93df11417552e5e!2sRock%20Bottom%20Restaurant%20%26%20Brewery!5e0!3m2!1sen!2sus!4v1713718275662!5m2!1sen!2sus",
   },
   {
-    id: 10,
+    id: 7,
     title: "6202 Returns to Sheabeen Irish Pub",
     date: "Fri, Aug 16, 2024",
     time: "9:00pm - 12:00am",
@@ -95,7 +95,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
   },
   {
-    id: 11,
+    id: 8,
     title: "6202 Rocks the Palmer Lake Pub!",
     date: "Sat, Aug 31, 2024",
     time: "4:00pm - 7:00pm",
@@ -109,7 +109,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3096.357357865216!2d-104.8794648234758!3d39.098333534822146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2",
   },
   {
-    id: 12,
+    id: 9,
     title: "6202 Invades Greenfield's!",
     date: "Sat, Sep 07, 2024",
     time: "8:00pm - 12:00am",
@@ -122,7 +122,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
   },
   {
-    id: 13,
+    id: 10,
     title: "6202 Plays the Outdoor Stage at the Platte River Grill",
     date: "Fri, Sep 13, 2024",
     time: "6:00pm - 10:00pm",
@@ -135,7 +135,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6147.716785210904!2d-105.02402112345811!3d39.607872304470796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1713718353636!5m2!1sen!2sus",
   },
   {
-    id: 14,
+    id: 11,
     title: "6202 Returns to Wrigley's for a Saturday Night Special",
     date: "Sat, Sep 21, 2024",
     time: "4:00pm - 8:00pm",
@@ -148,7 +148,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6137.870539734098!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1713718330857!5m2!1sen!2sus",
   },
   {
-    id: 15,
+    id: 12,
     title: "6202 Makes a Return to the Stage at Takoda Tavern",
     date: "Fri, Oct 25, 2024",
     time: "7:30pm - 11:30pm",
@@ -162,7 +162,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
   },
   {
-    id: 16,
+    id: 13,
     title: "6202 Rocks the House at Takoda Tavern",
     date: "Fri, Dec 06, 2024",
     time: "7:30pm - 11:30pm",
@@ -176,7 +176,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
   },
   {
-    id: 17,
+    id: 14,
     title: "6202 Plays Their Last 2024 Show at Greenfield's",
     date: "Fri, Dec 20, 2024",
     time: "8:00pm - 12:00am",
@@ -189,7 +189,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
   },
   {
-    id: 18,
+    id: 15,
     title: "6202 Returns to The Frontier Club",
     date: "Sat, Nov 2, 2024",
     time: "8:00pm - 12:00am",
