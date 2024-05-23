@@ -1,43 +1,6 @@
+import { FrontierClubLogo } from "../content/contentExport";
+
 const events = [
-  {
-    id: 1,
-    title: "6202 Returns to Sports Lounge Off Broadway",
-    date: "Sat, Apr 27, 2024",
-    time: "8:30pm - 12:30am",
-    location: "Sports Lounge off Broadway",
-    address: "44 W Centennial Blvd, Highlands Ranch, CO 80129, USA",
-    description: "6202 performs a Saturday Night Special at Sports Lounge!",
-    logo: "https://images.getbento.com/accounts/fb53991197d2d7039b97c870007667e1/media/images/92007SLOB-White-trans-1-01.png",
-    link: "https://www.sportsloungebar.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.897676761705!2d-104.99083362345961!3d39.56191470722139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c82337973cfdf%3A0xe9af81e73250c12!2sSports%20Lounge%20Off%20Broadway!5e0!3m2!1sen!2sus!4v1713273523181!5m2!1sen!2sus",
-  },
-  {
-    id: 2,
-    title: "6202 Takes the Stage at Sheabeen Irish Pub",
-    date: "Fri, May 3, 2024",
-    time: "8:00pm - 12:00am",
-    location: "Sheabeen Irish Pub",
-    address: "2300 S Chambers Rd # A, Aurora, CO 80014, USA",
-    description: "6202 returns to Aurora for a Friday night show at Sheabeen.",
-    logo: "https://www.sheabeenirishpub.com/images/logo2.jpg",
-    link: "https://www.sheabeenirishpub.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
-  },
-  {
-    id: 3,
-    title: "6202 Returns to Hoffbrau Bar & Grill",
-    date: "Thu, May 16, 2024",
-    time: "9:00pm - 12:00am",
-    location: "Hoffbrau Bar & Grill",
-    address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
-    description: "6202 returns to grace the stage at Hoffbrau",
-    logo: "https://www.hoffbrau.com/sites/all/themes/bestmobile/logo.png",
-    link: "https://www.hoffbrau.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.574116478071!2d-105.0824696234491!3d39.86137618925199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1713718228652!5m2!1sen!2sus",
-  },
   {
     id: 4,
     title: "6202 Returns to Rock Bottom Brewery",
@@ -224,6 +187,19 @@ const events = [
     link: "https://greenfieldsbar.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
+  },
+  {
+    id: 18,
+    title: "6202 Returns to The Frontier Club",
+    date: "Sat, Nov 2, 2024",
+    time: "8:00pm - 12:00am",
+    location: "The Frontier Club",
+    address: "18881 E Colfax Ave #4, Aurora, CO 80011, USA",
+    description: "6202 Makes a Return Visit to The Frontier Club",
+    logo: FrontierClubLogo,
+    link: "https://www.thefrontierclubaurora.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
   },
 ];
 
