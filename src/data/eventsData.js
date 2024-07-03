@@ -5,7 +5,7 @@ const events = [
     id: 1,
     title: "6202 Invades the Platte River Grill",
     date: "Fri, Jul 05, 2024",
-    time: "6:00pm - 10:00pm",
+    time: "6:30pm - 10:30pm",
     location: "The Platte",
     address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
     description:
@@ -111,6 +111,19 @@ const events = [
   },
   {
     id: 9,
+    title: "6202 Returns to The Frontier Club",
+    date: "Sat, Nov 2, 2024",
+    time: "8:00pm - 12:00am",
+    location: "The Frontier Club",
+    address: "18881 E Colfax Ave #4, Aurora, CO 80011, USA",
+    description: "6202 Makes a Return Visit to The Frontier Club",
+    logo: FrontierClubLogo,
+    link: "https://www.thefrontierclubaurora.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
+  },
+  {
+    id: 10,
     title: "6202 Rocks the House at Takoda Tavern",
     date: "Fri, Dec 06, 2024",
     time: "7:30pm - 11:30pm",
@@ -122,19 +135,6 @@ const events = [
     link: "http://www.takodatavern.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
-  },
-  {
-    id: 10,
-    title: "6202 Returns to The Frontier Club",
-    date: "Sat, Nov 2, 2024",
-    time: "8:00pm - 12:00am",
-    location: "The Frontier Club",
-    address: "18881 E Colfax Ave #4, Aurora, CO 80011, USA",
-    description: "6202 Makes a Return Visit to The Frontier Club",
-    logo: FrontierClubLogo,
-    link: "https://www.thefrontierclubaurora.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
   },
   {
     id: 11,
