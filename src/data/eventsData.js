@@ -3,20 +3,6 @@ import { FrontierClubLogo } from "../content/contentExport";
 const events = [
   {
     id: 1,
-    title: "6202 Invades the Platte River Grill",
-    date: "Fri, Jul 05, 2024",
-    time: "6:30pm - 10:30pm",
-    location: "The Platte",
-    address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
-    description:
-      "6202 punctuates the work week with a Friday Night show on the outdoor stage at The Platte",
-    logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Platte-River-Grill-logo_black.png",
-    link: "https://www.theplatteriverbarandgrill.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6147.716785210904!2d-105.02402112345811!3d39.607872304470796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1713718353636!5m2!1sen!2sus",
-  },
-  {
-    id: 2,
     title: "6202 Debuts at Bucket List Tavern",
     date: "Fri, Jul 19, 2024",
     time: "",
@@ -30,7 +16,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.944245545774!2d-104.88333782346527!3d39.40276741672657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c99f4be22f16b%3A0x8477ce7ceae3c068!2sBucket%20List%20Tavern!5e0!3m2!1sen!2sus!4v1713718378563!5m2!1sen!2sus",
   },
   {
-    id: 3,
+    id: 2,
     title: "6202 Hits Rock Bottom Again!",
     date: "Sat, Jul 27, 2024",
     time: "6:00pm - 9:00pm",
@@ -43,7 +29,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.1984968083602!2d-105.01012232345994!3d39.55513160762741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c838fffffffff%3A0xa93df11417552e5e!2sRock%20Bottom%20Restaurant%20%26%20Brewery!5e0!3m2!1sen!2sus!4v1713718275662!5m2!1sen!2sus",
   },
   {
-    id: 4,
+    id: 3,
     title: "6202 Returns to Sheabeen Irish Pub",
     date: "Fri, Aug 16, 2024",
     time: "9:00pm - 12:00am",
@@ -54,6 +40,20 @@ const events = [
     link: "https://www.sheabeenirishpub.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
+  },
+  {
+    id: 4,
+    title: "6202 Heading to Wrigley's for a Sunday Afternoon Show!",
+    date: "Sun, Aug 18, 2024",
+    time: "3:00pm - 7:00pm",
+    location: "Wrigley's Chicago Bar & Grill",
+    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
+    description:
+      "Ejoy the last days of summer! Come on over to Wrigley's to see 6202 perform a late afternoon show on their outdoor stage.",
+    logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
+    link: "https://www.wrigleyschicagobar.net/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ const events = [
     logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
     link: "https://www.wrigleyschicagobar.net/",
     mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6137.870539734098!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1713718330857!5m2!1sen!2sus",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
   },
   {
     id: 8,
