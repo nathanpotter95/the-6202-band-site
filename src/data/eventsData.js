@@ -18,7 +18,7 @@ const events = [
     id: 2,
     title: "6202 Brings the Hype to Hoffbrau!",
     date: "Thurs, Oct 03, 2024",
-    time: "9:00pm - 12:00am",
+    time: "8:30pm - 11:30pm",
     location: "Hoffbrau Bar & Grill",
     address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
     description: "Come on out to Hoffbrau Bar & Grill for a 6202 Thursday night special.",
@@ -69,6 +69,20 @@ const events = [
   },
   {
     id: 6,
+    title: "6202 Back for Another Epic Night at Hoffbrau!",
+    date: "Thurs, Nov 14, 2024",
+    time: "8:30pm - 11:30pm",
+    location: "Hoffbrau Bar & Grill",
+    address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
+    description:
+      "Join us for round two as 6202 brings more energy and excitement to Hoffbrau Bar & Grill for a second special Thursday night event.",
+    logo: "https://www.hoffbrau.com/sites/all/themes/bestmobile/logo.png",
+    link: "https://www.hoffbrau.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
+  },
+  {
+    id: 7,
     title: "6202 Rocks the House at Takoda Tavern",
     date: "Fri, Dec 06, 2024",
     time: "7:30pm - 11:30pm",
@@ -82,7 +96,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
   },
   {
-    id: 7,
+    id: 8,
     title: "6202 Plays Their Last 2024 Show at Greenfield's",
     date: "Fri, Dec 20, 2024",
     time: "8:00pm - 12:00am",
