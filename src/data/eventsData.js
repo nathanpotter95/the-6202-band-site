@@ -3,16 +3,16 @@ import { FrontierClubLogo } from "../content/contentExport";
 const events = [
   {
     id: 1,
-    title: "6202 Invades Greenfield's!",
-    date: "Sat, Sep 07, 2024",
-    time: "8:00pm - 12:00am",
-    location: "Greenfield's",
-    address: "3355 S Yarrow St E101, Lakewood, CO 80227, USA",
-    description: "6202 takes the stage for a Saturday night show at Greenfield's.",
-    logo: "https://img1.wsimg.com/isteam/ip/0ca600d5-a580-40b5-ad95-b7c4b4f7b18f/4442d3a6-6c6a-47fb-a48b-fe73880694f4.png/:/rs=w:159,h:106,cg:true,m/cr=w:159,h:106/qt=q:100/ll",
-    link: "https://greenfieldsbar.com/",
+    title: "6202 Returns to Wrigley's for a Saturday Night Special",
+    date: "Sat, Sep 21, 2024",
+    time: "3:00pm - 7:00pm",
+    location: "Wrigley's Chicago Bar & Grill",
+    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
+    description: "6202 is back at Wrigley's for a Fall show on the outdoor stage",
+    logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
+    link: "https://www.wrigleyschicagobar.net/",
     mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
   },
   {
     id: 2,
@@ -26,19 +26,6 @@ const events = [
     link: "https://www.hoffbrau.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
-  },
-  {
-    id: 3,
-    title: "6202 Returns to Wrigley's for a Saturday Night Special",
-    date: "Sat, Sep 21, 2024",
-    time: "4:00pm - 8:00pm",
-    location: "Wrigley's Chicago Bar & Grill",
-    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
-    description: "6202 is back at Wrigley's for a Fall show on the outdoor stage",
-    logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
-    link: "https://www.wrigleyschicagobar.net/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
   },
   {
     id: 4,
