@@ -562,7 +562,8 @@ ul{
 .event-card img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  max-height: 55%;
+  object-fit: fit;
 }
   .event-card:hover img{
     transition: ease-in-out 1.5s;
@@ -570,13 +571,13 @@ ul{
   }
 
 .event-card h2 {
-  font-size: 36px;
+  font-size: 32px;
   padding: 10px;
   margin: 0;
 }
 
 .event-details {
-  position: absolute;
+  position:absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -657,6 +658,9 @@ ul{
     margin: 10px auto;
     padding: 2px;
   }
+    .event-card h2{
+      font-size: 24px;
+    }
 
   .event-card {
     height: 16em;

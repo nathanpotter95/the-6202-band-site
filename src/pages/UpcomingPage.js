@@ -20,6 +20,7 @@ const UpcomingPage = () => {
                 <img src={event.logo} alt="Event Logo" />
                 <h2>{event.title}</h2>
                 <div className="event-details">
+                  <h2>{event.title}</h2>
                   <p>{event.date}</p>
                   <p>{event.time}</p>
                   <br />
