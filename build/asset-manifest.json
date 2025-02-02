@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dcb44e1.css",
-    "main.js": "/static/js/main.6884d515.js",
+    "main.css": "/static/css/main.ac1e6626.css",
+    "main.js": "/static/js/main.8b77a07e.js",
     "static/media/Band-full.png": "/static/media/Band-full.ebde351a1e3481ca93ba.png",
     "static/media/Bob-new.png": "/static/media/Bob-new.7eb45bb57204fec6c064.png",
     "static/media/Shane.png": "/static/media/Shane.39fe2015f7f0968ad302.png",
@@ -32,11 +32,11 @@
     "static/media/Frontier-Club-Logo.jpg": "/static/media/Frontier-Club-Logo.a9aa8474fa0338937db5.jpg",
     "static/media/song-list.txt": "/static/media/song-list.b97208d50cd2ed14d2ab.txt",
     "index.html": "/index.html",
-    "main.7dcb44e1.css.map": "/static/css/main.7dcb44e1.css.map",
-    "main.6884d515.js.map": "/static/js/main.6884d515.js.map"
+    "main.ac1e6626.css.map": "/static/css/main.ac1e6626.css.map",
+    "main.8b77a07e.js.map": "/static/js/main.8b77a07e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dcb44e1.css",
-    "static/js/main.6884d515.js"
+    "static/css/main.ac1e6626.css",
+    "static/js/main.8b77a07e.js"
   ]
 }
