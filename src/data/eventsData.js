@@ -30,6 +30,20 @@ const events = [
   },
   {
     id: 3,
+    title: "6202 Rocks the Sports Lounge Off Broadway",
+    date: "Thurs, Mar 14, 2025",
+    time: "8:30pm - 12:30am",
+    location: "Sports Lounge Off Broadway",
+    address: "44 W Centennial Blvd, Highlands Ranch, CO 80129, USA",
+    description:
+      "6202 takes over Sports Lounge off Broadway for a night of great tunes and good vibes. Don’t miss the fun from 8:30 PM to 12:30 AM!",
+    logo: "https://images.getbento.com/accounts/fb53991197d2d7039b97c870007667e1/media/images/92007SLOB-White-trans-1-01.png",
+    link: "https://www.sportsloungebar.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.8978589237086!2d-104.98825869999999!3d39.5619106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c82337973cfdf%3A0xe9af81e73250c12!2sSports%20Lounge%20Off%20Broadway!5e0!3m2!1sen!2sus!4v1739491385670!5m2!1sen!2sus",
+  },
+  {
+    id: 4,
     title: "6202 Brings the Hype to Hoffbrau!",
     date: "Thurs, Mar 20, 2025",
     time: "8:30pm - 11:30pm",
@@ -42,7 +56,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
   },
   {
-    id: 4,
+    id: 5,
     title: "Spring Rockin' at Hoffbrau",
     date: "Thurs, May 29, 2025",
     time: "8:30pm - 11:30pm",
@@ -56,7 +70,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
   },
   {
-    id: 5,
+    id: 6,
     title: "Rock Out at Palmer Lake Pub",
     date: "Sat, Jun 7, 2025",
     time: "4:00pm - 7:30pm",
@@ -70,7 +84,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
   {
-    id: 6,
+    id: 7,
     title: "6202 Rocks the House at Takoda Tavern",
     date: "Fri, Jun 27, 2025",
     time: "7:30pm - 11:30pm",
@@ -84,7 +98,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
   },
   {
-    id: 7,
+    id: 8,
     title: "Summer Rock Vibes at Palmer Lake Pub",
     date: "Sat, Aug 16, 2025",
     time: "4:00pm - 7:30pm",
@@ -98,7 +112,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
   {
-    id: 8,
+    id: 9,
     title: "Fall Rock Frenzy at Greenfields",
     date: "Fri, Oct 3, 2025",
     time: "8:00pm - 12:00am",
