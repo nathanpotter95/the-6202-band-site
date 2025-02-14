@@ -31,7 +31,7 @@ const events = [
   {
     id: 3,
     title: "6202 Rocks the Sports Lounge Off Broadway",
-    date: "Thurs, Mar 14, 2025",
+    date: "Fri, Mar 14, 2025",
     time: "8:30pm - 12:30am",
     location: "Sports Lounge Off Broadway",
     address: "44 W Centennial Blvd, Highlands Ranch, CO 80129, USA",
