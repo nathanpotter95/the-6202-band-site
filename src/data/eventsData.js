@@ -99,6 +99,20 @@ const events = [
   },
   {
     id: 8,
+    title: "6202 Live at Sheabeen Irish Pub",
+    date: "Fri, Jul 25, 202",
+    time: "8:00pm - 12:00am",
+    location: "Sheabeen Irish Pub",
+    address: "2300 S Chambers Rd # A, Aurora, CO 80014, USA",
+    description:
+      "Join 6202 for another unforgettable night of live music at Sheabeen Irish Pub! Come for the great tunes, drinks, and lively atmosphere",
+    logo: "https://www.sheabeenirishpub.com/images/logo2.jpg",
+    link: "https://www.sheabeenirishpub.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
+  },
+  {
+    id: 9,
     title: "Summer Rock Vibes at Palmer Lake Pub",
     date: "Sat, Aug 16, 2025",
     time: "4:00pm - 7:30pm",
@@ -112,7 +126,21 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
   {
-    id: 9,
+    id: 10,
+    title: "6202 Returns to Sheabeen Irish Pub",
+    date: "Sat, Sep 25, 2025",
+    time: "9:00pm - 12:00am",
+    location: "Sheabeen Irish Pub",
+    address: "2300 S Chambers Rd # A, Aurora, CO 80014, USA",
+    description:
+      "6202 is back at Sheabeen Irish Pub for another memorable evening of live music! Come enjoy the good vibes, great drinks, and even better tunes.",
+    logo: "https://www.sheabeenirishpub.com/images/logo2.jpg",
+    link: "https://www.sheabeenirishpub.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
+  },
+  {
+    id: 11,
     title: "Fall Rock Frenzy at Greenfields",
     date: "Fri, Oct 3, 2025",
     time: "8:00pm - 12:00am",

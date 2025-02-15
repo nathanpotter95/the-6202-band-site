@@ -95,3 +95,31 @@ Here are some old events for info and referance
   //   mapEmbed:
   //     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
   // },
+  // {    
+    id: 3,
+    title: "6202 Returns to Sheabeen Irish Pub",
+    date: "Fri, Aug 16, 2024",
+    time: "9:00pm - 12:00am",
+    location: "Sheabeen Irish Pub",
+    address: "2300 S Chambers Rd # A, Aurora, CO 80014, USA",
+    description: "6202 makes a return visit to Sheabeen Irish Pub for a Friday night show.",
+    logo: "https://www.sheabeenirishpub.com/images/logo2.jpg",
+    link: "https://www.sheabeenirishpub.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
+  },
+
+{
+    id:  4,
+    title: "6202 Debuts at Bucket List Tavern",
+    date: "Fri, Jul 19, 2024",
+    time: "",
+    location: "Bucket List Tavern",
+    address: "3982 Limelight Ave Ste A, Castle Rock, CO 80109, USA",
+    description:
+      "6202 makes their first visit and plays the patio at Bucket List Tavern in Castle Rock.",
+    logo: "https://images.squarespace-cdn.com/content/v1/632239fbc9ab8874b248588d/15d47f55-e4ba-4c68-98d8-f275d79b2dcf/Bucketlist+Logo+72ppi+for+Black+Background.png?format=1500w",
+    link: "https://www.bucketlisttavern.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.944245545774!2d-104.88333782346527!3d39.40276741672657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c99f4be22f16b%3A0x8477ce7ceae3c068!2sBucket%20List%20Tavern!5e0!3m2!1sen!2sus!4v1713718378563!5m2!1sen!2sus",
+  },
