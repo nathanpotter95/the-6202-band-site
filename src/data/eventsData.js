@@ -99,6 +99,19 @@ const events = [
   },
   {
     id: 8,
+    title: "6202 Returns to Wrigley's for a Saturday Night Special",
+    date: "Sat, Jul 12, 2025",
+    time: "4:00pm - 8:00pm",
+    location: "Wrigley's Chicago Bar & Grill",
+    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
+    description: "6202 is back at Wrigley's for a Summer show on the outdoor stage!",
+    logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
+    link: "https://www.wrigleyschicagobar.net/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
+  },
+  {
+    id: 9,
     title: "6202 Live at Sheabeen Irish Pub",
     date: "Fri, Jul 25, 202",
     time: "8:00pm - 12:00am",
@@ -112,7 +125,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
   },
   {
-    id: 9,
+    id: 10,
     title: "Summer Rock Vibes at Palmer Lake Pub",
     date: "Sat, Aug 16, 2025",
     time: "4:00pm - 7:30pm",
@@ -126,7 +139,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
   {
-    id: 10,
+    id: 11,
     title: "6202 Returns to Sheabeen Irish Pub",
     date: "Sat, Sep 25, 2025",
     time: "9:00pm - 12:00am",
@@ -140,7 +153,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
   },
   {
-    id: 11,
+    id: 12,
     title: "Fall Rock Frenzy at Greenfields",
     date: "Fri, Oct 3, 2025",
     time: "8:00pm - 12:00am",
@@ -152,6 +165,20 @@ const events = [
     link: "https://greenfieldsbar.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
+  },
+  {
+    id: 13,
+    title: "6202 Takes Over Wrigley’s for a Fall Show",
+    date: "Sun, Oct 12, 2025",
+    time: "3:00pm - 7:00pm",
+    location: "Wrigley's Chicago Bar & Grill",
+    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
+    description:
+      "Cooler weather, same great energy! 6202 is back at Wrigley’s for a night of live music, good company, and great vibes. Don’t miss it!",
+    logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
+    link: "https://www.wrigleyschicagobar.net/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
   },
 ];
 
