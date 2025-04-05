@@ -3,33 +3,6 @@ import { FrontierClubLogo } from "../content/contentExport";
 const events = [
   {
     id: 1,
-    title: "6202 Rocks the Sports Lounge Off Broadway",
-    date: "Fri, Mar 14, 2025",
-    time: "8:00pm - 12:00am",
-    location: "Sports Lounge Off Broadway",
-    address: "44 W Centennial Blvd, Highlands Ranch, CO 80129, USA",
-    description:
-      "6202 takes over Sports Lounge off Broadway for a night of great tunes and good vibes. Don’t miss the fun from 8:30 PM to 12:30 AM!",
-    logo: "https://images.getbento.com/accounts/fb53991197d2d7039b97c870007667e1/media/images/92007SLOB-White-trans-1-01.png",
-    link: "https://www.sportsloungebar.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.8978589237086!2d-104.98825869999999!3d39.5619106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c82337973cfdf%3A0xe9af81e73250c12!2sSports%20Lounge%20Off%20Broadway!5e0!3m2!1sen!2sus!4v1739491385670!5m2!1sen!2sus",
-  },
-  {
-    id: 2,
-    title: "6202 Brings the Hype to Hoffbrau!",
-    date: "Thurs, Mar 20, 2025",
-    time: "8:30pm - 11:30pm",
-    location: "Hoffbrau Bar & Grill",
-    address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
-    description: "Come kick off spring at Hoffbrau Bar & Grill for a 6202 Thursday night special.",
-    logo: "https://www.hoffbrau.com/sites/all/themes/bestmobile/logo.png",
-    link: "https://www.hoffbrau.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
-  },
-  {
-    id: 3,
     title: "Spring Rockin' at Hoffbrau",
     date: "Thurs, May 29, 2025",
     time: "8:30pm - 11:30pm",
@@ -43,7 +16,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
   },
   {
-    id: 4,
+    id: 2,
     title: "Rock Out at Palmer Lake Pub",
     date: "Sat, Jun 7, 2025",
     time: "4:00pm - 7:30pm",
@@ -56,6 +29,21 @@ const events = [
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
+  {
+    id: 3,
+    title: "Rock the River: Live at Platte River Bar & Grill",
+    date: "Sat, Jun 22, 2025",
+    time: "1:00pm - 5:30pm",
+    location: "Platte River Bar & Grill",
+    address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
+    description:
+      "Kick off your summer with great food, cold drinks, and a live set packed with rock favorites! Join us at Platte River Bar & Grill from 1–5pm for an afternoon of music, sunshine, and good vibes.",
+    logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Platte-River-Grill-logo_black.png",
+    link: "https://www.theplatteriverbarandgrill.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.8585748221467!2d-105.02144620000001!3d39.6078682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1743886014612!5m2!1sen!2sus",
+  },
+
   {
     id: 5,
     title: "6202 Rocks the House at Takoda Tavern",
