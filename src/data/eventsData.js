@@ -2,20 +2,6 @@ import { FrontierClubLogo } from "../content/contentExport";
 
 const events = [
   {
-    id: 1,
-    title: "Spring Rockin' at Hoffbrau",
-    date: "Thurs, May 29, 2025",
-    time: "8:30pm - 11:30pm",
-    location: "Hoffbrau Bar & Grill",
-    address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
-    description:
-      "As the weather warms, we’ll be turning up the heat with rock hits from every era at Hoffbrau! Perfect for your Thursday night out.",
-    logo: "https://www.hoffbrau.com/sites/all/themes/bestmobile/logo.png",
-    link: "https://www.hoffbrau.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
-  },
-  {
     id: 2,
     title: "Rock Out at Palmer Lake Pub",
     date: "Sat, Jun 7, 2025",
