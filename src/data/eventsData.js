@@ -2,24 +2,10 @@ import { FrontierClubLogo } from "../content/contentExport";
 
 const events = [
   {
-    id: 2,
-    title: "Rock Out at Palmer Lake Pub",
-    date: "Sat, Jun 7, 2025",
-    time: "4:00pm - 7:30pm",
-    location: "Palmer Lake Pub",
-    address: "876 CO-105, Palmer Lake, CO 80133, USA",
-    description:
-      "Enjoy a sunny Saturday afternoon of rock classics and modern hits at Palmer Lake Pub! It’s the perfect setting for some fun.",
-    logo: "https://static.wixstatic.com/media/e903ec_907eba549830449a9eb9603790844e96~mv2.jpg/v1/crop/x_2,y_0,w_957,h_838/fill/w_317,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PLP_Logo_White.jpg",
-    link: "https://www.palmerlakepub.net/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
-  },
-  {
     id: 3,
     title: "Rock the River: Live at Platte River Bar & Grill",
-    date: "Sat, Jun 22, 2025",
-    time: "1:00pm - 5:30pm",
+    date: "Sun, Jun 22, 2025",
+    time: "1:00pm - 5:00pm",
     location: "Platte River Bar & Grill",
     address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
     description:
