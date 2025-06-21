@@ -11,9 +11,9 @@ const BioPage = () => {
           When musicians went looking to find the right people for a band, little did they know that
           being persistent was the key, and that timing is everything. <br />
           <br />
-          Vocalist/Percussionist Larry Canepa met Guitarist John Santus in early 2017 and they set
-          off to build their vision of a great band. Drummer Shane Gregg joined the group shortly
-          after, having played with John in a previous band. Bob Sullivan joined the group as the
+          Vocalist/Percussionist Larry Canepa met Guitarist John Santus in 2014 and they set off to
+          build their vision of a great band. Drummer Shane Gregg joined the group shortly after,
+          having played with John in a previous band. Bob Sullivan joined the group as the
           Keyboardist in 2019, bringing his amazing experience on keys/organ/synths, which help
           broaden the band's song choices. And the newest member, Terry DeBell, joining in 2023, as
           the band's Bassist and additional vocalist. Terry brings an outstanding sense of rhythm,
