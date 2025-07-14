@@ -6,26 +6,30 @@ import "../utils/icons/fontawesome";
 const ContactPage = () => {
   const [message, setMessage] = useState("");
 
-  const handleSubmit = async (event) => {
-    // Prevent page from refreshing on the submission
-    event.preventDefault();
-
-    try {
-      const response = await fetch(
-        "https://github.us18.list-manage.com/subscribe/post?u=748e84cb2434e64172222b3f3&amp;id=df2209b072&amp;f_id=006bc2e1f0",
-        {
-          method: "POST",
-          body: new FormData(event.target),
-        }
-      );
-    } catch (error) {
-      console.error("Form submission error:", error);
-      // Handle error, display error message, or log the error
-    }
-  };
-
   const thankYou = () => {
     setMessage("Thank you for your submission!");
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    try {
+      await fetch("https://formsubmit.co/6202band@gmail.com", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      form.reset();
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setMessage("Oops! Something went wrong. Please try again later.");
+    }
   };
 
   return (
