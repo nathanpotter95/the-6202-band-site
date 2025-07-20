@@ -2,7 +2,7 @@ import { FrontierClubLogo } from "../content/contentExport";
 
 const events = [
   {
-    id: 7,
+    id: 1,
     title: "6202 Live at Sheabeen Irish Pub",
     date: "Fri, Jul 25, 202",
     time: "8:00pm - 12:00am",
@@ -16,7 +16,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
   },
   {
-    id: 8,
+    id: 2,
     title: "Summer Rock Vibes at Palmer Lake Pub",
     date: "Sat, Aug 16, 2025",
     time: "4:00pm - 7:30pm",
@@ -29,9 +29,22 @@ const events = [
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
-
   {
-    id: 9,
+    id: 3,
+    title: "6202 Rocks the Stage at Greenfield's – Summer Night Show",
+    date: "Fri, Aug 1, 2025",
+    time: "8:00pm - 12:00am",
+    location: "Greenfield's",
+    address: "3355 S Yarrow St E101, Lakewood, CO 80227, USA",
+    description:
+      "Catch 6202 live for a Friday night summer set at Greenfield's! Cold drinks,  great tunes, and good times guaranteed.",
+    logo: "https://img1.wsimg.com/isteam/ip/0ca600d5-a580-40b5-ad95-b7c4b4f7b18f/4442d3a6-6c6a-47fb-a48b-fe73880694f4.png/:/rs=w:159,h:106,cg:true,m/cr=w:159,h:106/qt=q:100/ll",
+    link: "https://greenfieldsbar.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6143.56885764504!2d-105.08625812345643!3d39.654565801673684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b81d20db6f029%3A0x57debcf670f6b798!2sGreenfields%20Pool%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1713718305493!5m2!1sen!2sus",
+  },
+  {
+    id: 4,
     title: "6202 Live at Frontier Club – Summer Night Special",
     date: "Sat, Aug 23, 2025",
     time: "8:00pm - 12:00am",
@@ -43,6 +56,20 @@ const events = [
     link: "https://www.thefrontierclubaurora.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
+  },
+  {
+    id: 5,
+    title: "6202 Brings the Hype to Hoffbrau!",
+    date: "Thurs, Sep 4, 2025",
+    time: "8:30pm - 11:30pm",
+    location: "Hoffbrau Bar & Grill",
+    address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
+    description:
+      "Come kick off September at Hoffbrau Bar & Grill for a 6202 Thursday night special.",
+    logo: "https://www.hoffbrau.com/sites/all/themes/bestmobile/logo.png",
+    link: "https://www.hoffbrau.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
   },
   {
     id: 10,
