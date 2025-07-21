@@ -68,9 +68,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <label className="copyright">
-        Copyright © The 6202 Band. Web design by Nathan Potter. All rights reserved.
-      </label>
+      <p className="copyright">
+        © 2023 The 6202 Band. Website developed by{" "}
+        <a href="https://npotter.com/" target="_blank" rel="noopener noreferrer">
+          npotter.com
+        </a>
+        .
+      </p>
     </div>
   );
 };
