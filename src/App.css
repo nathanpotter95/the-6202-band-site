@@ -30,7 +30,7 @@ body{
   margin: 0 auto;
   color: #ffffff;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
   .app{
     flex-direction: column;
     max-width: 100%;
@@ -144,7 +144,7 @@ ul{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 
   .site-header{
     margin-top: 4px
@@ -288,7 +288,7 @@ ul{
   margin: 0 auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   .footer-navigation .navbar-options{
     display: flex;
     flex-direction: column;
@@ -339,7 +339,7 @@ ul{
   flex-direction: row;
   z-index: 0;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
   .page-container{
     flex-direction: column;
   }
@@ -439,7 +439,7 @@ ul{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   
   .home-container{
     display: flex;
@@ -624,7 +624,7 @@ ul{
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
   }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   .upcoming-img{
     background-size:contain;
     background-attachment: absolute;
@@ -724,7 +724,7 @@ ul{
 }
 
   
-@media (max-width: 600px){
+@media (max-width: 800px){
   .event-page{
     max-width: 100%;
     justify-content: center;
@@ -799,7 +799,7 @@ ul{
     max-height: 315px;
   }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   .media-page h1{
     margin: 1em;
     font-size: 40px;
@@ -927,7 +927,7 @@ textarea{
   flex-direction: row;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   .contact-container{
     flex-direction: column;
     width: 100%;
@@ -1039,7 +1039,7 @@ textarea{
   font-weight: 100;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 
   .bio-heading{
     width: 100%;
@@ -1130,7 +1130,7 @@ textarea{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   .song-list-page{
     width: 100%;
     padding: 10px;
