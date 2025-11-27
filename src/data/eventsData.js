@@ -38,7 +38,7 @@ const events = [
     address: "11475 W. Colfax Ave, Lakewood, CO 80215, USA",
     description:
       "Kick off 2026 with an electric night at Misfits Sports Bar & Grill as 6202 brings a high-energy mix of rock hits, crowd favorites, and the perfect dose of musical mayhem. Cold drinks, loud music, and a Saturday night done right.",
-    logo: "https://static.spotapps.co/web/misfitssportsbarandgrill--com/custom/logo.png",
+    logo: `/photos/misfits_logo.png`,
     link: "https://misfitssportsbarandgrill.com/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.962065114134!2d-105.12926768792789!3d39.74050297143766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84201aedd587%3A0x2eb10195fc69d76b!2sMisfits%20Sports%20Bar%20And%20Grill!5e0!3m2!1sen!2sus!4v1764014717988!5m2!1sen!2sus",

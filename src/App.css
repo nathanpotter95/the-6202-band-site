@@ -561,10 +561,14 @@ ul{
 }
 
 .event-card img {
-  width: 100%;
-  height: auto;
+  display: flex;
+  max-width: 100%;
+  width: auto;
   max-height: 55%;
-  object-fit: fit;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
 }
   .event-card:hover img{
     transition: ease-in-out 1.5s;
