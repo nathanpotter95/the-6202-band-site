@@ -17,6 +17,9 @@ const EventPage = () => {
           <p>{event.description}</p>
         </div>
         <img src={event.logo} className="event-logo" alt="Event Logo" />
+        <a href={event.link} className="event-venue-link" target="_blank" rel="noopener noreferrer">
+          Visit Venue Website →
+        </a>
         <div className="event-bottom">
           <h3>Time & Location</h3>
           <p>{event.time}</p>

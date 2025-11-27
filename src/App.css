@@ -712,6 +712,24 @@ ul{
   margin: 40px auto;
 }
 
+.event-venue-link {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.event-venue-link:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
 .event-top{
   margin: 20px auto;
 }
