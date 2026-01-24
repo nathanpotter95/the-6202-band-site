@@ -9,7 +9,7 @@ Here are some old events for info and referance
   //   location: "Wrigley's Chicago Bar & Grill",
   //   address: "18200 W Colfax Ave, Golden, CO 80401, USA",
   //   description: "6202 is back at Wrigley's for a Fall show on the outdoor stage",
-  //   logo: "https://www.wrigleyschicagobar.net/wp-content/themes/wrigleys/images/wrigleys-chicago-bar-grill-logo.png",
+  //   logo: "https://static.spotapps.co/website_images/ab_websites/86277_website_v2/logo_new.png",
   //   link: "https://www.wrigleyschicagobar.net/",
   //   mapEmbed:
   //     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.935269867049!2d-105.2077428234542!3d39.718637397830946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley&#39;s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1720399962184!5m2!1sen!2sus",
