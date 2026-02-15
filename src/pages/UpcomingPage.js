@@ -31,7 +31,7 @@ const UpcomingPage = () => {
                 </div>
               </div>
               <div className="event-button">
-                <Link to={`/event/${event.id}`}>
+                <Link to={`/event/${event.id}`} className="button-label">
                   <label>Details</label>
                 </Link>
               </div>

@@ -2,20 +2,6 @@ import { FrontierClubLogo } from "../content/contentExport";
 
 const events = [
   {
-    id: 1,
-    title: "6202 Live at Misfits: A Winter Night of Rock",
-    date: "Sat, Jan 24, 2026",
-    time: "7:00pm - 11:00pm",
-    location: "Misfits Sports Bar & Grill",
-    address: "11475 W. Colfax Ave, Lakewood, CO 80215, USA",
-    description:
-      "Kick off 2026 with an electric night at Misfits Sports Bar & Grill as 6202 brings a high-energy mix of rock hits, crowd favorites, and the perfect dose of musical mayhem. Cold drinks, loud music, and a Saturday night done right.",
-    logo: `/photos/misfits_logo.png`,
-    link: "https://misfitssportsbarandgrill.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.962065114134!2d-105.12926768792789!3d39.74050297143766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84201aedd587%3A0x2eb10195fc69d76b!2sMisfits%20Sports%20Bar%20And%20Grill!5e0!3m2!1sen!2sus!4v1764014717988!5m2!1sen!2sus",
-  },
-  {
     id: 2,
     title: "6202 Live at Takoda: Saturday Night Soundtrack",
     date: "Sat, Feb 28, 2026",
@@ -129,6 +115,21 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
   },
   {
+    id: 9.5,
+    title: "Summer Saturday Sessions at Platte River Bar & Grill",
+    date: "Sat, Jul 25, 2026",
+    time: "12:30pm - 4:30pm",
+    location: "Platte River Bar & Grill",
+    address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
+    description:
+      "Spend your Saturday afternoon by the river with 6202 at Platte River Bar & Grill. Great food, cold drinks, and a high-energy live set from 12:30–4:30pm make this the perfect summer hang.",
+    logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Platte-River-Grill-logo_black.png",
+    link: "https://www.theplatteriverbarandgrill.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.8585748221467!2d-105.02144620000001!3d39.6078682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1743886014612!5m2!1sen!2sus",
+  },
+
+  {
     id: 10,
     title: "6202 Mid-Summer Session at Palmer Lake",
     date: "Sat, Aug 1, 2026",
@@ -200,6 +201,21 @@ const events = [
   },
   {
     id: 15,
+    title: "Sunday Funday at Platte River – Live with 6202",
+    date: "Sun, Sep 27, 2026",
+    time: "1:00pm - 4:00pm",
+    location: "Platte River Bar & Grill",
+    address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
+    description:
+      "Close out your weekend with 6202 at Platte River Bar & Grill. Join us from 1–4pm for an afternoon of rock favorites, relaxed river vibes, and great company.",
+    logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Platte-River-Grill-logo_black.png",
+    link: "https://www.theplatteriverbarandgrill.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.8585748221467!2d-105.02144620000001!3d39.6078682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1743886014612!5m2!1sen!2sus",
+  },
+
+  {
+    id: 16,
     title: "6202 Live at Wrigley's – Fall Patio Show",
     date: "Sat, Oct 17, 2026",
     time: "4:00pm - 8:00pm",
