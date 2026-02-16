@@ -10,12 +10,15 @@ import EventPage from "./pages/EventPage";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
     <Router>
       <div className="container">
         <div className="app">
           <Header />
+          <ScrollToTop />
           <Routes>
             <Route path="/" exact element={<HomePage />} />
             {/* 'exact' to only render this page when the path is exactly that */}

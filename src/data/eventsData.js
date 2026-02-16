@@ -3,7 +3,7 @@ import { FrontierClubLogo } from "../content/contentExport";
 const events = [
   {
     id: 2,
-    title: "6202 Live at Takoda: Saturday Night Soundtrack",
+    title: "2/28 | 6202 Live at Takoda: Saturday Night Soundtrack",
     date: "Sat, Feb 28, 2026",
     time: "7:30pm - 11:30pm",
     location: "Takoda Tavern",
