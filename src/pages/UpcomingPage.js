@@ -17,8 +17,14 @@ const UpcomingPage = () => {
           {events.map((event) => (
             <div className="event-container">
               <div key={event.id} className="event-card">
-                <img src={event.logo} alt="Event Logo" />
-                <h2>{event.title}</h2>
+                <div className="card-image">
+                  <img src={event.logo} alt="Event Logo" />
+                </div>
+                <h2>
+                  {event.date}
+                  <br />
+                  {event.location}
+                </h2>
                 <div className="event-details">
                   <h2>{event.title}</h2>
                   <p>{event.date}</p>
