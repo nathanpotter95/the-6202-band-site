@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7e6c290a.css",
-    "main.js": "/static/js/main.410e7972.js",
+    "main.js": "/static/js/main.bf434538.js",
     "static/media/Band-full.png": "/static/media/Band-full.ebde351a1e3481ca93ba.png",
     "static/media/Bob-new.png": "/static/media/Bob-new.7eb45bb57204fec6c064.png",
     "static/media/Shane.png": "/static/media/Shane.39fe2015f7f0968ad302.png",
@@ -26,17 +26,19 @@
     "static/media/Larry-Canepa.png": "/static/media/Larry-Canepa.a01e73adef455bdb8c3f.png",
     "static/media/John-Gunslinger.png": "/static/media/John-Gunslinger.08812e8f407ba4ccdc51.png",
     "static/media/TD_Singing_2.png": "/static/media/TD_Singing_2.40734e54731bedd66172.png",
+    "static/media/misfits-logo.png": "/static/media/misfits-logo.b1dce6a110554e1f0ea4.png",
+    "static/media/private-event-logo.png": "/static/media/private-event-logo.59214a6bbf7b0072da27.png",
     "static/media/Johnny.png": "/static/media/Johnny.856dc6179879ea6d0ed9.png",
     "static/media/home-background.png": "/static/media/home-background.17a6ca103467dd9178a2.png",
     "static/media/contact-page.png": "/static/media/contact-page.e7ed65cb1865984f4179.png",
     "static/media/Frontier-Club-Logo.jpg": "/static/media/Frontier-Club-Logo.a9aa8474fa0338937db5.jpg",
     "index.html": "/index.html",
-    "static/media/song-list.txt": "/static/media/song-list.b97208d50cd2ed14d2ab.txt",
+    "static/media/song-list.txt": "/static/media/song-list.a32c1dba429ec894cf41.txt",
     "main.7e6c290a.css.map": "/static/css/main.7e6c290a.css.map",
-    "main.410e7972.js.map": "/static/js/main.410e7972.js.map"
+    "main.bf434538.js.map": "/static/js/main.bf434538.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6c290a.css",
-    "static/js/main.410e7972.js"
+    "static/js/main.bf434538.js"
   ]
 }

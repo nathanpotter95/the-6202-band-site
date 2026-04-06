@@ -8,6 +8,9 @@ import ShaneGreggImg from "../content/images/members/Shane-Gregg.png";
 import TerryDeBellImg from "../content/images/members/Terry-DeBell.png";
 
 import FrontierClubLogo from "../content/images/event-logos/Frontier-Club-Logo.jpg";
+import MisfitsLogo from "../content/images/event-logos/misfits-logo.png";
+import PrivateEventLogo from "../content/images/event-logos/private-event-logo.png";
+import OutletsLogo from "../content/images/event-logos/outlets-logo.jpg";
 // VIDEOS
 
 export {
@@ -18,4 +21,7 @@ export {
   ShaneGreggImg,
   TerryDeBellImg,
   FrontierClubLogo,
+  MisfitsLogo,
+  PrivateEventLogo,
+  OutletsLogo,
 };
