@@ -7,7 +7,7 @@ import {
 
 const events = [
   {
-    id: 1.5,
+    id: 1,
     title: "6202 Returns to Misfits – Spring Saturday Show",
     date: "Sat, May 2, 2026",
     time: "7:00pm - 11:00pm",
@@ -22,7 +22,7 @@ const events = [
   },
 
   {
-    id: 4,
+    id: 2,
     title: "6202 Returns to Sheabeen – Spring Friday Party",
     date: "Fri, May 8, 2026",
     time: "7:30pm - 11:30pm",
@@ -36,7 +36,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
   },
   {
-    id: 5,
+    id: 3,
     title: "A Friday Night with 6202 at The Angry Clover",
     date: "Fri, May 15, 2026",
     time: "8:00pm - 12:00am",
@@ -50,7 +50,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.8006158939647!2d-104.81220828793235!3d39.631692971457994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c88faece6afb3%3A0x1a2c9ed4ddc2af20!2sThe%20Angry%20Clover!5e0!3m2!1sen!2sus!4v1764014890870!5m2!1sen!2sus",
   },
   {
-    id: 6,
+    id: 4,
     title: "6202 Live at Frontier Club – Late Night Throwdown",
     date: "Sat, May 30, 2026",
     time: "8:00pm - 12:00am",
@@ -64,7 +64,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
   },
   {
-    id: 7,
+    id: 5,
     title: "6202 Live at Wrigley's – Summer Patio Show",
     date: "Sat, Jun 6, 2026",
     time: "4:00pm - 8:00pm",
@@ -78,7 +78,7 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7649.01668374426!2d-105.20194418293227!3d39.71689675468152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley%27s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1769273472351!5m2!1sen!2sus",
   },
   {
-    id: 8,
+    id: 6,
     title: "6202 Summer Starter at Palmer Lake Pub",
     date: "Sat, Jun 13, 2026",
     time: "4:00pm - 7:00pm",
@@ -92,10 +92,10 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
   },
   {
-    id: 8.5,
+    id: 7,
     title: "6202 Live at Castle Rock Car Show – Summer Weekend",
     date: "Sat, Jun 20, 2026",
-    time: "12:30pm - TBD",
+    time: "12:30pm - 3:00pm",
     location: "Castle Rock Car Show",
     address: "Wilcox St, Castle Rock, CO 80108, USA",
     description:
@@ -106,10 +106,10 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.1836303862506!2d-104.862547287943!3d39.374720171507754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c983c6e1368bf%3A0x84334832eced4b82!2sWilcox%20St%2C%20Colorado!5e0!3m2!1sen!2sus!4v1775506441311!5m2!1sen!2sus",
   },
   {
-    id: 8.7,
+    id: 8,
     title: "6202 Live – 4th of July HOA Party at Castle Pines",
     date: "Sat, Jul 4, 2026",
-    time: "12:30pm - TBD",
+    time: "12:30pm - 3:00pm",
     location: "Castle Pines",
     address: "Castle Pines, CO, USA",
     description:
@@ -193,7 +193,7 @@ const events = [
     id: 12.5,
     title: "6202 Live at Rock the Mountain Concert Series",
     date: "Sun, Aug 30, 2026",
-    time: "3:00pm - TBD",
+    time: "3:00pm - 6:00pm",
     location: "Outlets at Castle Rock",
     address: "5050 Factory Shops Blvd, Castle Rock, CO 80108, USA",
     description: "Catch 6202 live at the Rock the Mountain Concert Series.",
@@ -247,7 +247,7 @@ const events = [
     id: 15,
     title: "Sunday Funday at Platte River – Live with 6202",
     date: "Sun, Sep 27, 2026",
-    time: "1:00pm - 4:00pm",
+    time: "1:00pm - 5:00pm",
     location: "Platte River Bar & Grill",
     address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
     description:
