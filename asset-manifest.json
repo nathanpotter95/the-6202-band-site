@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7e6c290a.css",
-    "main.js": "/static/js/main.bf434538.js",
+    "main.js": "/static/js/main.fa5ad75f.js",
     "static/media/Band-full.png": "/static/media/Band-full.ebde351a1e3481ca93ba.png",
     "static/media/Bob-new.png": "/static/media/Bob-new.7eb45bb57204fec6c064.png",
     "static/media/Shane.png": "/static/media/Shane.39fe2015f7f0968ad302.png",
@@ -35,10 +35,10 @@
     "index.html": "/index.html",
     "static/media/song-list.txt": "/static/media/song-list.a32c1dba429ec894cf41.txt",
     "main.7e6c290a.css.map": "/static/css/main.7e6c290a.css.map",
-    "main.bf434538.js.map": "/static/js/main.bf434538.js.map"
+    "main.fa5ad75f.js.map": "/static/js/main.fa5ad75f.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6c290a.css",
-    "static/js/main.bf434538.js"
+    "static/js/main.fa5ad75f.js"
   ]
 }
