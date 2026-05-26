@@ -7,49 +7,6 @@ import {
 
 const events = [
   {
-    id: 1,
-    title: "6202 Returns to Misfits – Spring Saturday Show",
-    date: "Sat, May 2, 2026",
-    time: "7:00pm - 11:00pm",
-    location: "Misfits Sports Bar & Grill",
-    address: "11475 W Colfax Ave, Lakewood, CO 80215, USA",
-    description:
-      "6202 returns to Misfits for a lively spring Saturday night filled with rock favorites, great drinks, and an unbeatable atmosphere.",
-    logo: MisfitsLogo,
-    link: "https://misfitssportsbarandgrill.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.9620638425745!2d-105.1266874!3d39.740503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84201aedd587%3A0x2eb10195fc69d76b!2sMisfits%20Sports%20Bar%20And%20Grill!5e0!3m2!1sen!2sus!4v1775504996052!5m2!1sen!2sus",
-  },
-
-  {
-    id: 2,
-    title: "6202 Returns to Sheabeen – Spring Friday Party",
-    date: "Fri, May 8, 2026",
-    time: "7:30pm - 11:30pm",
-    location: "Sheabeen Irish Pub",
-    address: "2300 S Chambers Rd # A, Aurora, CO 80014, USA",
-    description:
-      "6202 returns to Sheabeen Irish Pub for another packed Friday night of live music, familiar favorites, and nonstop fun.",
-    logo: "https://www.sheabeenirishpub.com/images/logo2.jpg",
-    link: "https://www.sheabeenirishpub.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.9045608600677!2d-104.80991162345566!3d39.67436140048686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c882f44a351eb%3A0xc41b87662b374cb9!2sSheabeens%20Irish%20Pub!5e0!3m2!1sen!2sus!4v1713718050501!5m2!1sen!2sus",
-  },
-  {
-    id: 3,
-    title: "A Friday Night with 6202 at The Angry Clover",
-    date: "Fri, May 15, 2026",
-    time: "8:00pm - 12:00am",
-    location: "The Angry Clover",
-    address: "15350 E. Smoky Hill Rd, Aurora, CO 80015, USA",
-    description:
-      "Close out the week loud and proud with 6202 lighting up The Angry Clover. A high-energy Friday packed with rock hits, good company, and a room that just keeps getting louder as the night goes on.",
-    logo: "https://theangryclover.com/wp-content/uploads/2022/10/tac-white-logo-header.png",
-    link: "https://theangryclover.com",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.8006158939647!2d-104.81220828793235!3d39.631692971457994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c88faece6afb3%3A0x1a2c9ed4ddc2af20!2sThe%20Angry%20Clover!5e0!3m2!1sen!2sus!4v1764014890870!5m2!1sen!2sus",
-  },
-  {
     id: 4,
     title: "6202 Live at Frontier Club – Late Night Throwdown",
     date: "Sat, May 30, 2026",
@@ -104,6 +61,20 @@ const events = [
     link: "https://www.downtowncastlerock.com/carshowweekend",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.1836303862506!2d-104.862547287943!3d39.374720171507754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c983c6e1368bf%3A0x84334832eced4b82!2sWilcox%20St%2C%20Colorado!5e0!3m2!1sen!2sus!4v1775506441311!5m2!1sen!2sus",
+  },
+  {
+    id: 7.5,
+    title: "6202 Live at Castle Rock Sip & Savor",
+    date: "Sat, Jun 27, 2026",
+    time: "5:00pm - 8:00pm",
+    location: "The Amphitheatre at Philip S. Miller Park",
+    address: "1375 W Plum Creek Pkwy, Castle Rock, CO 80109, USA",
+    description:
+      "Come sip & savor some of the finest vino and bourbon with 6202 providing the live soundtrack for the evening. Enjoy unlimited tastings from dozens of wines and bourbons, delicious food vendors, and great live music at the beautiful Philip S. Miller Park Amphitheatre.",
+    logo: "https://chambermaster.blob.core.windows.net/images/events/2498/7007/EventPhotoFull_Sip%20and%20Savor%20Logo%20-%20transparent%20background.png",
+    link: "https://castlerock.org/castle-rock-sip-and-savor/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.47878908838!2d-104.88740138794337!3d39.368038271509086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c985d92cf8e35%3A0x75d34a16fa2080df!2sPhilip%20S.%20Miller%20Park%20Amphitheater!5e0!3m2!1sen!2sus!4v1779828205977!5m2!1sen!2sus",
   },
   {
     id: 8,

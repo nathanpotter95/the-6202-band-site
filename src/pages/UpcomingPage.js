@@ -16,31 +16,33 @@ const UpcomingPage = () => {
         <div className="events-gallery">
           {events.map((event) => (
             <div className="event-container">
-              <div key={event.id} className="event-card">
-                <div className="card-image">
-                  <img src={event.logo} alt="Event Logo" />
+              <Link to={`/event/${event.id}`} className="card-link">
+                <div key={event.id} className="event-card">
+                  <div className="card-image">
+                    <img src={event.logo} alt="Event Logo" />
+                  </div>
+                  <h2>
+                    {event.date}
+                    <br />
+                    {event.location}
+                  </h2>
+                  <div className="event-details">
+                    <h2>{event.title}</h2>
+                    <p>{event.date}</p>
+                    <p>{event.time}</p>
+                    <br />
+                    <p>{event.location}</p>
+                    <p>{event.address}</p>
+                    <br />
+                    <p>{event.description}</p>
+                  </div>
                 </div>
-                <h2>
-                  {event.date}
-                  <br />
-                  {event.location}
-                </h2>
-                <div className="event-details">
-                  <h2>{event.title}</h2>
-                  <p>{event.date}</p>
-                  <p>{event.time}</p>
-                  <br />
-                  <p>{event.location}</p>
-                  <p>{event.address}</p>
-                  <br />
-                  <p>{event.description}</p>
+                <div className="event-button">
+                  <Link to={`/event/${event.id}`} className="button-label">
+                    <label>Details</label>
+                  </Link>
                 </div>
-              </div>
-              <div className="event-button">
-                <Link to={`/event/${event.id}`} className="button-label">
-                  <label>Details</label>
-                </Link>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

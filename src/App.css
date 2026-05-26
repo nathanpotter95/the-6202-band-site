@@ -561,6 +561,10 @@ ul{
   height: 20em;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card-image{
   display: flex;
   justify-content: center;
