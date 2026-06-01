@@ -50,7 +50,7 @@ const members = [
     image: content.LarryCanepaImg,
     role: "Lead Vocals / Backing Vocals / Percussion",
     description: `Larry Canepa started 6202 with a dream; a band to make amazing music; through great covers and all original ideas. He's worked tirelessly to create an ensemble of the best musicians available, and his trust in the team has been rewarded with excellent musicianship and inspiration to keep driving forward musically.\n
-    Larry was born and raised in Monterey, CA. He's been a drummer since childhood, and has also been a vocalist for the past 15 years. His life has been heavily influenced by music; whether it was drumming in hometown bands as a youth, building an entertainment company that served Texas and Oklahoma with DJ and Karaoke services, acting as a house DJ for casinos in Blackhawk and Central City, or building one of the best cover bands in all of Colorado.\n
+    Larry was born and raised in Monterey, CA. He's been a drummer since childhood, and has also been a vocalist since the early 2000s. His life has been heavily influenced by music; whether it was drumming in hometown bands as a youth, building an entertainment company that served Texas and Oklahoma with DJ and Karaoke services, acting as a house DJ for casinos in Blackhawk and Central City, or building one of the best cover bands in all of Colorado.\n
     His biggest influences range across various genres of music, including Rock (Tom Petty, Bad Company, The Cars), Pop (Matchbox Twenty, David Bowie), R&B (Commodores, Earth Wind & Fire, The Jacksons), and Country (Hank Williams Jr., Tim McGraw, Keith Urban.\n`,
     instagramLink: "",
     orientation: "regular",
