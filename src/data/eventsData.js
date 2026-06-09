@@ -7,34 +7,6 @@ import {
 
 const events = [
   {
-    id: 4,
-    title: "6202 Live at Frontier Club – Late Night Throwdown",
-    date: "Sat, May 30, 2026",
-    time: "8:00pm - 12:00am",
-    location: "The Frontier Club",
-    address: "18881 E Colfax Ave #4, Aurora, CO 80011, USA",
-    description:
-      "Frontier Club turns up as 6202 delivers a full-throttle late-night set. Grab a drink, hit the dance floor, and close out your Saturday right.",
-    logo: FrontierClubLogo,
-    link: "https://www.thefrontierclubaurora.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
-  },
-  {
-    id: 5,
-    title: "6202 Live at Wrigley's – Summer Patio Show",
-    date: "Sat, Jun 6, 2026",
-    time: "4:00pm - 8:00pm",
-    location: "Wrigley's Chicago Bar & Grill",
-    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
-    description:
-      "Join 6202 for a perfect summer afternoon at Wrigley’s. Live music, cold drinks, and great vibes on the outdoor stage.",
-    logo: "https://static.spotapps.co/website_images/ab_websites/86277_website_v2/logo_new.png",
-    link: "https://www.wrigleyschicagobar.net/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7649.01668374426!2d-105.20194418293227!3d39.71689675468152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley%27s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1769273472351!5m2!1sen!2sus",
-  },
-  {
     id: 6,
     title: "6202 Summer Starter at Palmer Lake Pub",
     date: "Sat, Jun 13, 2026",
@@ -222,7 +194,7 @@ const events = [
     location: "Platte River Bar & Grill",
     address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
     description:
-      "Close out your weekend with 6202 at Platte River Bar & Grill. Join us from 1–4pm for an afternoon of rock favorites, relaxed river vibes, and great company.",
+      "Close out your weekend with 6202 at Platte River Bar & Grill. Join us from 1–5pm for an afternoon of rock favorites, relaxed river vibes, and great company.",
     logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Platte-River-Grill-logo_black.png",
     link: "https://www.theplatteriverbarandgrill.com/",
     mapEmbed:
@@ -254,6 +226,34 @@ const events = [
     link: "https://www.wrigleyschicagobar.net/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7649.01668374426!2d-105.20194418293227!3d39.71689675468152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley%27s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1769273472351!5m2!1sen!2sus",
+  },
+  {
+    id: 17,
+    title: "6202 Rocks the House at Takoda Tavern",
+    date: "Fri, Oct 30, 2026",
+    time: "7:30pm - 11:30pm",
+    location: "Takoda Tavern",
+    address: "12365 Pine Bluffs Way, Parker, CO 80134, USA",
+    description:
+      "Get ready for a Friday night of classic rock, modern favorites, and great energy as 6202 returns to Takoda Tavern. Grab a drink, bring some friends, and rock into the weekend with us.",
+    logo: "http://nebula.wsimg.com/61ee8aaed0b74e6676d11f86c8ae73eb?AccessKeyId=F95A2FBD5F21156E5012&disposition=0&alloworigin=1",
+    link: "http://www.takodatavern.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
+  },
+  {
+    id: 18,
+    title: "6202 Rocks the House at Takoda Tavern",
+    date: "Sat, Dec 26, 2026",
+    time: "7:30pm - 11:30pm",
+    location: "Takoda Tavern",
+    address: "12365 Pine Bluffs Way, Parker, CO 80134, USA",
+    description:
+      "Keep the holiday spirit alive with an evening of live rock music at Takoda Tavern. 6202 brings the soundtrack for a fun night of great songs, good company, and post-Christmas celebration.",
+    logo: "http://nebula.wsimg.com/61ee8aaed0b74e6676d11f86c8ae73eb?AccessKeyId=F95A2FBD5F21156E5012&disposition=0&alloworigin=1",
+    link: "http://www.takodatavern.com/",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.008369609031!2d-104.75976522346205!3d39.49172561141725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91865e8c9181%3A0x4b6ef77cfb153c42!2sTakoda%20Tavern!5e0!3m2!1sen!2sus!4v1713718792379!5m2!1sen!2sus",
   },
 ];
 
