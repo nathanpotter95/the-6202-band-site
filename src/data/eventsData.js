@@ -7,34 +7,6 @@ import {
 
 const events = [
   {
-    id: 6,
-    title: "6202 Summer Starter at Palmer Lake Pub",
-    date: "Sat, Jun 13, 2026",
-    time: "4:00pm - 7:00pm",
-    location: "Palmer Lake Pub",
-    address: "876 Highway 105, Palmer Lake, CO 80132, USA",
-    description:
-      "Kick off the summer season with an early-evening set from 6202 at Palmer Lake Pub. Laid-back vibes meet big sound — the perfect Saturday hangout with music and drinks.",
-    logo: "https://static.wixstatic.com/media/e903ec_907eba549830449a9eb9603790844e96~mv2.jpg/v1/crop/x_2,y_0,w_957,h_838/fill/w_317,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PLP_Logo_White.jpg",
-    link: "https://www.palmerlakepub.net/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
-  },
-  {
-    id: 7,
-    title: "6202 Live at Castle Rock Car Show – Summer Weekend",
-    date: "Sat, Jun 20, 2026",
-    time: "12:30pm - 3:00pm",
-    location: "Castle Rock Car Show",
-    address: "Wilcox St, Castle Rock, CO 80108, USA",
-    description:
-      "Join 6202 for a high-energy set during Car Show Weekend in downtown Castle Rock. A fun-filled day of classic cars, great music, and summer vibes hosted by the Vintage Car Club and the Castle Rock Downtown Merchants Association. Check out their website for more information!",
-    logo: "https://static.wixstatic.com/media/c2543b_42e3aba3c3ec44abbbe02e3612d5c145~mv2.jpg/v1/fill/w_220,h_252,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Large-DDA-Logo.jpg",
-    link: "https://www.downtowncastlerock.com/carshowweekend",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.1836303862506!2d-104.862547287943!3d39.374720171507754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c983c6e1368bf%3A0x84334832eced4b82!2sWilcox%20St%2C%20Colorado!5e0!3m2!1sen!2sus!4v1775506441311!5m2!1sen!2sus",
-  },
-  {
     id: 7.5,
     title: "6202 Live at Castle Rock Sip & Savor",
     date: "Sat, Jun 27, 2026",
@@ -103,6 +75,20 @@ const events = [
     link: "https://www.palmerlakepub.net/",
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
+  },
+  {
+    id: 10.5,
+    title: "6202 at Hot Rods in the Park",
+    date: "Sat, Aug 8, 2026",
+    time: "10:00am - 1:30pm",
+    location: "Larkspur Community Park",
+    address: "8820 Spruce Mountain Rd, Larkspur, CO 80118, USA",
+    description:
+      "Spend your Saturday morning with 6202 at Hot Rods in the Park! Hosted by the Vintage Car Club of Castle Rock, this free community event features an incredible collection of classic cars, food, drinks, and live music in beautiful Larkspur Community Park.",
+    logo: "https://thevintagecarclub.com/wp-content/uploads/vcc-circled-logo-300-1.png",
+    link: "https://thevintagecarclub.com/hot-rods-in-the-park",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.420420138103!2d-104.88488738794882!3d39.23332697153607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876ca4fae15858bd%3A0x8fb0b04a575a0339!2s8820%20Spruce%20Mountain%20Rd%2C%20Larkspur%2C%20CO%2080118!5e0!3m2!1sen!2sus!4v1782667245893!5m2!1sen!2sus",
   },
   {
     id: 11,
