@@ -51,11 +51,11 @@ const events = [
     id: 9.5,
     title: "Summer Saturday Sessions at Platte River Bar & Grill",
     date: "Sat, Jul 25, 2026",
-    time: "12:30pm - 4:30pm",
+    time: "6:30pm - 10:30pm",
     location: "Platte River Bar & Grill",
     address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
     description:
-      "Spend your Saturday afternoon by the river with 6202 at Platte River Bar & Grill. Great food, cold drinks, and a high-energy live set from 12:30–4:30pm make this the perfect summer hang.",
+      "Spend your Saturday evening by the river with 6202 at Platte River Bar & Grill. Great food, cold drinks, and a high-energy live set from 6:30–10:30pm make this the perfect summer hang.",
     logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Platte-River-Grill-logo_black.png",
     link: "https://www.theplatteriverbarandgrill.com/",
     mapEmbed:
