@@ -7,20 +7,6 @@ import {
 
 const events = [
   {
-    id: 7.5,
-    title: "6202 Live at Castle Rock Sip & Savor",
-    date: "Sat, Jun 27, 2026",
-    time: "5:00pm - 8:00pm",
-    location: "The Amphitheatre at Philip S. Miller Park",
-    address: "1375 W Plum Creek Pkwy, Castle Rock, CO 80109, USA",
-    description:
-      "Come sip & savor some of the finest vino and bourbon with 6202 providing the live soundtrack for the evening. Enjoy unlimited tastings from dozens of wines and bourbons, delicious food vendors, and great live music at the beautiful Philip S. Miller Park Amphitheatre.",
-    logo: "https://chambermaster.blob.core.windows.net/images/events/2498/7007/EventPhotoFull_Sip%20and%20Savor%20Logo%20-%20transparent%20background.png",
-    link: "https://castlerock.org/castle-rock-sip-and-savor/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.47878908838!2d-104.88740138794337!3d39.368038271509086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c985d92cf8e35%3A0x75d34a16fa2080df!2sPhilip%20S.%20Miller%20Park%20Amphitheater!5e0!3m2!1sen!2sus!4v1779828205977!5m2!1sen!2sus",
-  },
-  {
     id: 8,
     title: "6202 Live – 4th of July HOA Party at Castle Pines",
     date: "Sat, Jul 4, 2026",
@@ -47,21 +33,6 @@ const events = [
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
   },
-  {
-    id: 9.5,
-    title: "Summer Saturday Sessions at Platte River Bar & Grill",
-    date: "Sat, Jul 25, 2026",
-    time: "6:30pm - 10:30pm",
-    location: "Platte River Bar & Grill",
-    address: "5995 S Santa Fe Dr, Littleton, CO 80120, USA",
-    description:
-      "Spend your Saturday evening by the river with 6202 at Platte River Bar & Grill. Great food, cold drinks, and a high-energy live set from 6:30–10:30pm make this the perfect summer hang.",
-    logo: "https://static.wixstatic.com/media/6f0583_fe575d3ea44a4511aa0ede5333f9ddd5~mv2.png/v1/fill/w_133,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Platte-River-Grill-logo_black.png",
-    link: "https://www.theplatteriverbarandgrill.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.8585748221467!2d-105.02144620000001!3d39.6078682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c81d2039fe33b%3A0xb64c232dfb5265c2!2sPlatte%20River%20Bar%20and%20Grill!5e0!3m2!1sen!2sus!4v1743886014612!5m2!1sen!2sus",
-  },
-
   {
     id: 10,
     title: "6202 Mid-Summer Session at Palmer Lake",
