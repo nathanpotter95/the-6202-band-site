@@ -7,33 +7,6 @@ import {
 
 const events = [
   {
-    id: 8,
-    title: "6202 Live – 4th of July HOA Party at Castle Pines",
-    date: "Sat, Jul 4, 2026",
-    time: "12:30pm - 3:00pm",
-    location: "Castle Pines",
-    address: "Castle Pines, CO, USA",
-    description:
-      "6202 performs a special private 4th of July event for the Castle Pines HOA. A day filled with music, celebration, and summer spirit.",
-    logo: PrivateEventLogo,
-    link: "",
-    mapEmbed: "",
-  },
-  {
-    id: 9,
-    title: "6202 Returns to Frontier Club – Mid-Summer Bash",
-    date: "Sat, Jul 18, 2026",
-    time: "8:00pm - 12:00am",
-    location: "The Frontier Club",
-    address: "18881 E Colfax Ave #4, Aurora, CO 80011, USA",
-    description:
-      "Summer heats up as 6202 returns to Frontier Club for another big Saturday night of live music and crowd favorites.",
-    logo: FrontierClubLogo,
-    link: "https://www.thefrontierclubaurora.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
-  },
-  {
     id: 10,
     title: "6202 Mid-Summer Session at Palmer Lake",
     date: "Sat, Aug 1, 2026",
