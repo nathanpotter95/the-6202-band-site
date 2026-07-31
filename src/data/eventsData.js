@@ -10,7 +10,7 @@ const events = [
     id: 10,
     title: "6202 Mid-Summer Session at Palmer Lake",
     date: "Sat, Aug 1, 2026",
-    time: "4:00pm - 7:00pm",
+    time: "5:00pm - 8:00pm",
     location: "Palmer Lake Pub",
     address: "876 Highway 105, Palmer Lake, CO 80132, USA",
     description:
