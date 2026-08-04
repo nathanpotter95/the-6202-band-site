@@ -104,19 +104,6 @@ const events = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29193.73561161145!2d-104.76297589026187!3d39.72586896213633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c63c40dc2af9d%3A0x294d72ce21dd2ae2!2sThe%20Frontier%20Club!5e0!3m2!1sen!2sus!4v1716481108592!5m2!1sen!2sus",
   },
   {
-    id: 14.5,
-    title: "6202 Live at Hoffbrau – Late Night Session",
-    date: "Thu, Sep 24, 2026",
-    time: "8:30pm - 11:30pm",
-    location: "Hoffbrau Bar & Grill",
-    address: "9110 Wadsworth Pkwy, Westminster, CO 80021, USA",
-    description: "6202 brings the energy to Hoffbrau for a late-night set.",
-    logo: "https://www.hoffbrau.com/sites/all/themes/bestmobile/logo.png",
-    link: "https://www.hoffbrau.com/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4331.127240933925!2d-105.08243352872017!3d39.861480918289885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78cd4a7a2535%3A0xc28a7f4087eb002d!2sHoffbrau!5e0!3m2!1sen!2sus!4v1725456794747!5m2!1sen!2sus",
-  },
-  {
     id: 15,
     title: "Sunday Funday at Platte River – Live with 6202",
     date: "Sun, Sep 27, 2026",
