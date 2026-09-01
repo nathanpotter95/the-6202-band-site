@@ -7,62 +7,6 @@ import {
 
 const events = [
   {
-    id: 10,
-    title: "6202 Mid-Summer Session at Palmer Lake",
-    date: "Sat, Aug 1, 2026",
-    time: "5:00pm - 8:00pm",
-    location: "Palmer Lake Pub",
-    address: "876 Highway 105, Palmer Lake, CO 80132, USA",
-    description:
-      "Spend your Saturday afternoon with 6202 delivering a fun, upbeat mid-summer show at Palmer Lake Pub. Great crowd, chill atmosphere, and a playlist built for a good time.",
-    logo: "https://static.wixstatic.com/media/e903ec_907eba549830449a9eb9603790844e96~mv2.jpg/v1/crop/x_2,y_0,w_957,h_838/fill/w_317,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PLP_Logo_White.jpg",
-    link: "https://www.palmerlakepub.net/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198658.7515448148!2d-104.91836088769759!3d38.92299481431714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876cad0616815a73%3A0x1c8a413e97c2c0fd!2sPalmer%20Lake%20Pub!5e0!3m2!1sen!2sus!4v1737930499877!5m2!1sen!2sus",
-  },
-  {
-    id: 10.5,
-    title: "6202 at Hot Rods in the Park",
-    date: "Sat, Aug 8, 2026",
-    time: "10:00am - 1:30pm",
-    location: "Larkspur Community Park",
-    address: "8820 Spruce Mountain Rd, Larkspur, CO 80118, USA",
-    description:
-      "Spend your Saturday morning with 6202 at Hot Rods in the Park! Hosted by the Vintage Car Club of Castle Rock, this free community event features an incredible collection of classic cars, food, drinks, and live music in beautiful Larkspur Community Park.",
-    logo: "https://thevintagecarclub.com/wp-content/uploads/vcc-circled-logo-300-1.png",
-    link: "https://thevintagecarclub.com/hot-rods-in-the-park",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.420420138103!2d-104.88488738794882!3d39.23332697153607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876ca4fae15858bd%3A0x8fb0b04a575a0339!2s8820%20Spruce%20Mountain%20Rd%2C%20Larkspur%2C%20CO%2080118!5e0!3m2!1sen!2sus!4v1782667245893!5m2!1sen!2sus",
-  },
-  {
-    id: 11,
-    title: "6202 Live at Wrigley's – Late Summer Session",
-    date: "Sat, Aug 15, 2026",
-    time: "4:00pm - 8:00pm",
-    location: "Wrigley's Chicago Bar & Grill",
-    address: "18200 W Colfax Ave, Golden, CO 80401, USA",
-    description:
-      "Spend your Saturday afternoon with 6202 at Wrigley’s. A relaxed outdoor show packed with great music and summer energy.",
-    logo: "https://static.spotapps.co/website_images/ab_websites/86277_website_v2/logo_new.png",
-    link: "https://www.wrigleyschicagobar.net/",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7649.01668374426!2d-105.20194418293227!3d39.71689675468152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84a526ece61f%3A0xe7a24f1d4def9111!2sWrigley%27s%20Chicago%20Bar%20%26%20Grill!5e0!3m2!1sen!2sus!4v1769273472351!5m2!1sen!2sus",
-  },
-  {
-    id: 12,
-    title: "Another 6202 Evening at The Angry Clover",
-    date: "Fri, Aug 28, 2026",
-    time: "8:00pm - 12:00am",
-    location: "The Angry Clover",
-    address: "15350 E. Smoky Hill Rd, Aurora, CO 80015, USA",
-    description:
-      "6202 returns to The Angry Clover for a Friday night late-summer banger. Expect a packed room, loud guitars, and a crowd ready to send August off with a bang.",
-    logo: "https://theangryclover.com/wp-content/uploads/2022/10/tac-white-logo-header.png",
-    link: "https://theangryclover.com",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.8006158939647!2d-104.81220828793235!3d39.631692971457994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c88faece6afb3%3A0x1a2c9ed4ddc2af20!2sThe%20Angry%20Clover!5e0!3m2!1sen!2sus!4v1764014890870!5m2!1sen!2sus",
-  },
-  {
     id: 12.5,
     title: "6202 Live at Rock the Mountain Concert Series",
     date: "Sun, Aug 30, 2026",
@@ -160,7 +104,7 @@ const events = [
   },
   {
     id: 18,
-    title: "6202 Rocks the House at Takoda Tavern",
+    title: "Christmas Weekend Live with 6202 at Takoda Tavern",
     date: "Sat, Dec 26, 2026",
     time: "7:30pm - 11:30pm",
     location: "Takoda Tavern",
